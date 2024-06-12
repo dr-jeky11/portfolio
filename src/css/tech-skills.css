@@ -3,6 +3,7 @@ body {
 }
 
 .tech-skills {
+  margin: 0 auto;
   overflow: hidden;
   width: 1280px;
   height: 282px;

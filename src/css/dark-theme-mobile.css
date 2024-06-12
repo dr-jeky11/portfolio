@@ -1,0 +1,11 @@
+.dark-theme-mobile {
+  background: #1e2023;
+  color: #f0f0f0;
+  background-image: url();
+  background-size: cover;
+}
+
+.dark-theme-mobile #icon_close {
+  fill: #f0f0f0;
+  stroke: #f0f0f0;
+}

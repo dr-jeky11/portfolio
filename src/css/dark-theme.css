@@ -1,0 +1,43 @@
+body.dark-theme {
+  background: #1e2023;
+  color: #f0f0f0;
+}
+
+body.dark-theme.header.headers.mobile-menu-btn.mobile-menu-icon {
+  fill: #f0f0f0;
+  stroke: #f0f0f0;
+}
+
+body.dark-theme #icon_mobile {
+  fill: #f0f0f0;
+  stroke: #f0f0f0;
+}
+
+body.dark-theme .icon-color {
+  fill: #f0f0f0;
+  stroke: #f0f0f0;
+}
+
+.nav-menu-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list-mobile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 276px;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.switch-mobiles {
+  display: flex;
+  justify-content: center;
+}

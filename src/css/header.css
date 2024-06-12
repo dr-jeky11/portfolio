@@ -1,0 +1,134 @@
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  --background: #e4e5e6;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px 0px 0px 15px #00b068;
+  background: #2a2d32;
+  transition: 0.5s;
+}
+
+input:checked + .slider {
+  background-color: #2a2d32;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset -8px 0px 0px 0px #00b068;
+}
+
+@media screen and (min-width: 0px) {
+  #header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .logo {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .logo-green {
+    color: #00b068;
+  }
+  .switch {
+    display: none;
+  }
+  .slider {
+    display: none;
+  }
+  #theme-toggle {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobile-menu-btn {
+    background: transparent;
+    border: none;
+  }
+  .mobile-menu-icon {
+    /* fill: #292929; */
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .headers .container {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headers {
+    justify-content: space-between;
+  }
+  .header .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .switch {
+    display: inline-block;
+  }
+  .slider {
+    display: inline-block;
+  }
+  #theme-toggle {
+    display: inline-block;
+  }
+  .nav-menu {
+    display: flex;
+  }
+  .menu-list {
+    display: flex;
+    gap: 40px;
+  }
+  .mobile-menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .headers .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}

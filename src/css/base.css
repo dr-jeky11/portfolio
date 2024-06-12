@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Impact';
   src: url('../fonts/impact.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -26,6 +28,15 @@ body {
   font-family: 'Poppins Regular', sans-serif;
   background-color: #f0f0f0;
   box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+  --color-text: #292929;
+  --accet-green: #00b068;
+  --bg-color: #f0f0f0;
+  --light-grey: #e4e5e6;
+  --light-accent: #14c57c;
 }
 
 section {
@@ -76,10 +87,8 @@ section {
   overflow: hidden;
 }
 
-.span {
-  color: #00b068;
-}
-
-.dark-span {
-  color: #14c57c;
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }

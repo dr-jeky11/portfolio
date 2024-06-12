@@ -30,8 +30,7 @@
 }
 
 .marquee-line {
-  list-style-image: url(../img/dot.png);
-  list-style-position: initial;
+  list-style: inside;
   margin: 0;
   display: inline-flex;
   padding: 40px 8px;
@@ -78,8 +77,7 @@
 }
 
 .incl-marquee-line {
-  list-style-image: url(../img/dot-black.png);
-  list-style-position: initial;
+  list-style: inside;
   transform: rotate(2deg);
   margin: 0;
   display: inline-flex;

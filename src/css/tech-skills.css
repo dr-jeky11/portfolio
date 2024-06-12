@@ -46,6 +46,10 @@
   padding-right: 16px;
 }
 
+.marquee-li::marker {
+  color: #00b068;
+}
+
 @keyframes marqueeLine {
   from {
     transform: translateX(0);
@@ -92,6 +96,10 @@
 
 .incl-marquee-li {
   padding-right: 16px;
+}
+
+.incl-marquee-li::marker {
+  color: #292929;
 }
 
 @keyframes marqueeLine {

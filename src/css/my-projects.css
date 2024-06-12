@@ -7,9 +7,6 @@
         font-weight: 300;
         line-height: 1.5;
         letter-spacing: 0.5px;
-
-        margin-top: 40px;
-        margin-bottom: 40px;
         
         
 }
@@ -36,6 +33,10 @@
 
 .projects-list-item {
     margin-bottom: 40px;
+}
+
+.projects-list-item:last-child {
+    margin-bottom: 0;
 }
 
 .projects-list-img {
@@ -91,6 +92,7 @@
         position: relative;
         margin: 0 auto;
         border: none;
+        margin-top: 40px;
 
 }
 

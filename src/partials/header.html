@@ -1,6 +1,8 @@
- <header class="header" id="header">
+<header class="header" id="header">
   <div class="header-container container">
-    <a class="logo" href="./index.html">Lloyd<span class="logo-green">Jefferson.</span></a>
+    <a class="logo" href="./index.html"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
     <button class="burger-icon" type="button" aria-label="mobile menu">
       <svg width="32" height="32" class="icon-color">
         <use href="./img/icons.svg#icon-menu"></use>
@@ -12,10 +14,24 @@
       </svg>
     </button>
     <div class="nav-switcher">
+<<<<<<< header
         <label class="theme-toggle" for="theme-check">
             <input class="switch-theme-checkbox" value="light" type="checkbox" id="theme-check">
             <span class="slider"></span>
         </label>
+=======
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-check"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+>>>>>>> main
 
         <nav class="header-navigation">
         <ul class="header-menu">
@@ -42,7 +58,7 @@
           <a class="header-menu-link" href="#about-me">About me</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#my-project">Projects</a>
+          <a class="header-menu-link" href="#my-projects">Projects</a>
         </li>
         <li class="header-menu-item">
           <a class="header-menu-link" href="#work-together">Contacts</a>
@@ -52,7 +68,12 @@
 
     <div class="nav-switcher mobile-switcher">
       <div class="switch-theme-wrapper">
-        <input class="switch-theme-checkbox" value="light" type="checkbox" id="theme-checks" />
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-checks"
+        />
 
         <label class="theme-toggle" for="theme-check"></label>
         <div class="checkbox-circle"></div>
@@ -60,4 +81,8 @@
     </div>
   </div>
   <script src="./js/header.js" type="module" defer></script>
+<<<<<<< header
 </div> 
+=======
+</div>
+>>>>>>> main

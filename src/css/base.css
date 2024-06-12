@@ -25,6 +25,7 @@ html {
 body {
   font-family: 'Poppins Regular', sans-serif;
   background-color: #f0f0f0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -63,4 +64,12 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.span {
+  color: #00b068;
+}
+
+.dark-span {
+  color: #14c57c;
 }

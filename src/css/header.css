@@ -1,5 +1,5 @@
 /* Mobile-first styles */
-body.modal-open {
+ body.modal-open {
   overflow: hidden;
 }
 
@@ -126,75 +126,114 @@ body.modal-open {
 }
 
 /* Desktop styles */
-@media (min-width: 768px) {
-    .header {
-        padding: 36px 0;
-    }
+ @media (min-width: 768px) {
+     .header {
+         padding: 36px 0;
+        
+     }
 
-    .header-container {
-        padding: 0 32px;
-    }
+     .header-container {
+         padding: 0 32px;
+     }
 
-    .nav-switcher {
+     .nav-switcher {
         display: flex;
-        gap: 20px;
-    }
+            align-items: center;
+         gap: 40px;
+     }
 
-    .burger-icon,
-    .modal-header,
-    .close-modal {
-        display: none !important;
-    }
+     .burger-icon,
+     .modal-header,
+     .close-modal {
+         display: none !important;
+     }
 
-    .header-navigation {
-        display: block;
-    }
+     .header-navigation {
+         display: block;
+     }
 
-    .header-menu {
-        flex-direction: row;
-        gap: 40px;
-    }
+     .header-menu {
+         flex-direction: row;
+         gap: 40px;
+     }
 
-    .logo {
-        font-size: 32px;
-        letter-spacing: 0.05em;
-    }
-}
+     .logo {
+         font-size: 32px;
+         letter-spacing: 0.05em;
+     }
+ }
 
-@media screen and (min-width: 1280px) {
-    .nav-switcher {
-        gap: 40px;
-    }
-}
+ @media screen and (max-width: 1280px) {
+     .nav-switcher {
+         gap: 40px;
+        
+     }
 
-.switch-theme-wrapper {
+ }
+
+ .switch-theme-wrapper {
+     position: relative;
+     display: inline-block;
+     /* overflow: hidden; */
+     width: 48px;
+     height: 24px;
+     background-color: #e4e5e6;
+     border-radius: 16px;
+     transition: background-color 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+ }
+
+ .switch-theme-checkbox {
+     appearance: none;
+ }
+
+ .theme-toggle {
+     /* position: absolute;
+     top: 0;
+     left: 0;
+
+     width: 100%;
+     height: 100%;
+     cursor: pointer; */
     position: relative;
-    overflow: hidden;
-    width: 48px;
-    height: 24px;
-    background-color: #e4e5e6;
-    border-radius: 16px;
-    transition: background-color 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+ }
+.theme-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
-.switch-theme-checkbox {
-    appearance: none;
-}
-
-.theme-toggle {
+.slider {
     position: absolute;
+    cursor: pointer;
     top: 0;
     left: 0;
-
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
 }
 
-.checkbox-circle {
+.slider:before {
     position: absolute;
-    top: 50%;
+    content: "";
+    height: 16px;
+    width: 16px;
     left: 2px;
+<<<<<<< header
+    bottom: 2px;
+    background-color: #27ae60;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #444;
+    /* Темний фон */
+=======
     transform: translate(0, -50%);
     width: 20px;
     height: 20px;
@@ -207,15 +246,45 @@ body.modal-open {
 .switch-theme-checkbox:checked~.checkbox-circle {
     transform: translate(30px, -50%);
     background-image: url('./img/icons.svg#icon-dark');
+>>>>>>> main
 }
 
-.mobile-switcher {
-    display: block;
+input:checked+.slider:before {
+    transform: translateX(20px);
+    background-color: #27ae60;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    /* Форма місяця */
 }
 
-.modal-content {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
 
+
+
+ /* .checkbox-circle {
+     position: absolute;
+     top: 50%;
+     left: 2px;
+     transform: translate(0, -50%);
+     width: 20px;
+     height: 20px;
+     transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+     background-image: url('../img/icons.svg#icon-ellipse');
+     background-repeat: no-repeat;
+ }
+
+ .switch-theme-checkbox:checked~.checkbox-circle {
+     transform: translate(30px, -50%);
+     background-image: url('../img/icons.svg#icon-dark');
+ } */
+/* 
+ .mobile-switcher {
+     display: block;
+ } */
+
+ .modal-content {
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+ }
+
+ 

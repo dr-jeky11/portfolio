@@ -65,9 +65,33 @@ address {
 
 body {
   font-family: 'Poppins Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   background-color: #f0f0f0;
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+  font-family: 'Impact';
+  font-size: 64px;
+  letter-spacing: 1.8px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-family: 'Impact';
+  font-size: 52px;
+  letter-spacing: 1.8px;
+  line-height: 1.23;
+}
+
+h3 {
+  font-family: 'Poppins Medium';
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
 }
 
 section {
@@ -92,6 +116,27 @@ section {
   }
   section {
     padding: 124px 0;
+  }
+
+  h1 {
+    font-family: 'Impact';
+    font-size: 136px;
+    letter-spacing: 1.8px;
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-family: 'Impact';
+    font-size: 108px;
+    letter-spacing: 1.8px;
+    line-height: 1.15;
+  }
+
+  h3 {
+    font-family: 'Poppins Medium';
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 1.33;
   }
 }
 

@@ -1,0 +1,30 @@
+.benefits {
+}
+.container {
+}
+.benefits-container {
+}
+.benefits-title {
+}
+.span {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-icon {
+  border-radius: 8px;
+  background-color: rgba(0, 176, 104, 0.1);
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  stroke: #00b068;
+  fill: rgba(0, 176, 104, 0.1);
+}
+.benefits-subtitle {
+}
+.benefits-text {
+}

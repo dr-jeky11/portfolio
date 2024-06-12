@@ -39,7 +39,7 @@
   min-width: 50%;
   white-space: nowrap; /* Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /* Ховаємо текст, який виходить за межі контейнера */
-  animation: marqueeLine 5s linear infinite; /* Застосовуємо анімацію */
+  animation: marqueeLine 12s linear infinite; /* Застосовуємо анімацію */
 }
 
 .marquee-li {
@@ -91,7 +91,7 @@
   min-width: 50%;
   white-space: nowrap; /*Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /*Ховаємо текст, який виходить за межі контейнера */
-  animation: marqueeLine 8s linear infinite; /*Застосовуємо анімацію */
+  animation: marqueeLine 9s linear infinite; /*Застосовуємо анімацію */
 }
 
 .incl-marquee-li {

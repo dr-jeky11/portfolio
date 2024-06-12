@@ -30,7 +30,8 @@
 }
 
 .marquee-line {
-  list-style: inside;
+  list-style-position: inside;
+  list-style-type: square;
   margin: 0;
   display: inline-flex;
   padding: 40px 8px;
@@ -81,7 +82,8 @@
 }
 
 .incl-marquee-line {
-  list-style: inside;
+  list-style-position: inside;
+  list-style-type: square;
   transform: rotate(2deg);
   margin: 0;
   display: inline-flex;
@@ -91,7 +93,7 @@
   min-width: 50%;
   white-space: nowrap; /*Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /*Ховаємо текст, який виходить за межі контейнера */
-  animation: marqueeLine 9s linear infinite; /*Застосовуємо анімацію */
+  animation: marqueeLine 19s linear infinite; /*Застосовуємо анімацію */
 }
 
 .incl-marquee-li {
@@ -100,6 +102,7 @@
 
 .incl-marquee-li::marker {
   color: #292929;
+  border-radius: 2px;
 }
 
 @keyframes marqueeLine {

@@ -1,0 +1,20 @@
+body {
+  transition: background-color 300ms ease;
+}
+
+body.dark,
+.dark .modal-header {
+  background-color: #1e2023;
+}
+
+.dark .logo,
+.dark .header-menu-link,
+.dark .text.text-modal-second {
+  color: #f0f0f0;
+}
+
+.logo,
+.header-menu-link,
+.text.text-modal-second {
+  transition: color 400ms ease;
+}

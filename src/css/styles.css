@@ -6,8 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./dark-theme.css');
-@import url('./light-theme.css');
+@import url('./dark.css');
 
 @import url('./header.css');
 @import url('./hero.css');
@@ -19,5 +18,3 @@
 @import url('./reviews.css');
 @import url('./work-together.css');
 @import url('./footer.css');
-@import url('./modal.css');
-@import url('./dark-theme-mobile.css');

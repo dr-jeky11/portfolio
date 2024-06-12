@@ -1,23 +1,77 @@
-<section id="header">
-  <div class="headers container">
-    <a href="../index.html" class="logo"
-      >Lloyd<span class="span">Jefferson.</span></a
+<header class="header" id="header">
+  <div class="header-container container">
+    <a class="logo" href="./index.html"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
     >
-    <label class="switch">
-      <input type="checkbox" id="theme-toggle" />
-      <span class="slider"></span>
-    </label>
-    <nav class="nav-menu">
-      <ul class="menu-list">
-        <li class="menu-item"><a href="#">About me</a></li>
-        <li class="menu-item"><a href="#"></a>Projects</li>
-        <li class="menu-item"><a href="#"></a>Contacts</li>
-      </ul>
-    </nav>
-    <button type="button" class="mobile-menu-btn" data-mobile-open>
-      <svg class="mobile-menu-icon" width="22" height="16" id="icon_mobile">
-        <use href="./img/icons.svg#icon-menu"></use>
+    <button class="burger-icon" type="button" aria-label="mobile menu">
+      <svg width="32" height="32" class="icon-color">
+        <use href="../img/icons.svg#icon-menu"></use>
       </svg>
     </button>
+    <button class="close-modal" type="button" aria-label="close mobile menu">
+      <svg width="32" height="32" class="icon-color">
+        <use href="../img/icons.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <div class="nav-switcher">
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-check"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+
+      <nav class="header-navigation">
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#about-me">About me</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#my-project">Projects</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#work-together">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</section>
+</header>
+
+<div class="modal-header">
+  <div class="modal-content">
+    <nav>
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#my-project">Projects</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-switcher mobile-switcher">
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-checks"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/header.js" type="module" defer></script>
+</div>

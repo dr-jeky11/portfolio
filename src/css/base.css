@@ -81,13 +81,13 @@ section {
 
 @media screen and (min-width: 360px) {
   .container {
-    width: 360px;
+    max-width: 360px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
   section {
@@ -97,7 +97,7 @@ section {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 32px;
   }
   section {

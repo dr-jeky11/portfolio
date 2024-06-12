@@ -7,10 +7,33 @@
     <title>Portfolio</title>
     
     <script type="module" crossorigin src="/portfolio/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/portfolio/assets/index-39b9d013.css">
+    <link rel="stylesheet" href="/portfolio/assets/index-fb052f1e.css">
   </head>
   <body>
-    
+    <section id="header">
+  <div class="headers container">
+    <a href="../index.html" class="logo"
+      >Lloyd<span class="span">Jefferson.</span></a
+    >
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle" />
+      <span class="slider"></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu-list">
+        <li class="menu-item"><a href="#">About me</a></li>
+        <li class="menu-item"><a href="#"></a>Projects</li>
+        <li class="menu-item"><a href="#"></a>Contacts</li>
+      </ul>
+    </nav>
+    <button type="button" class="mobile-menu-btn" data-mobile-open>
+      <svg class="mobile-menu-icon" width="22" height="16" id="icon_mobile">
+        <use href="/portfolio/assets/icons-8d884d68.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
     <main>
       
       
@@ -66,7 +89,7 @@
     <ul class="benefits-list">
       <li class="benefits-item">
         <svg class="benefits-icon" width="24" height="24">
-          <use href="/portfolio/assets/icons-82d9b5e8.svg#icon-user"></use>
+          <use href="/portfolio/assets/icons-8d884d68.svg#icon-user"></use>
         </svg>
         <h4 class="benefits-subtitle">Expertise</h4>
         <p class="benefits-text">
@@ -76,7 +99,7 @@
       </li>
       <li class="benefits-item">
         <svg class="benefits-icon" width="24" height="24">
-          <use href="/portfolio/assets/icons-82d9b5e8.svg#icon-chat"></use>
+          <use href="/portfolio/assets/icons-8d884d68.svg#icon-chat"></use>
         </svg>
         <h4 class="benefits-subtitle">Communication</h4>
         <p class="benefits-text">
@@ -86,7 +109,7 @@
       </li>
       <li class="benefits-item">
         <svg class="benefits-icon" width="24" height="24">
-          <use href="/portfolio/assets/icons-82d9b5e8.svg#icon-brush"></use>
+          <use href="/portfolio/assets/icons-8d884d68.svg#icon-brush"></use>
         </svg>
         <h4 class="benefits-subtitle">Art</h4>
         <p class="benefits-text">
@@ -96,7 +119,7 @@
       </li>
       <li class="benefits-item">
         <svg class="benefits-icon" width="24" height="24">
-          <use href="/portfolio/assets/icons-82d9b5e8.svg#icon-time"></use>
+          <use href="/portfolio/assets/icons-8d884d68.svg#icon-time"></use>
         </svg>
         <h4 class="benefits-subtitle">Urgent execution</h4>
         <p class="benefits-text">
@@ -113,6 +136,33 @@
       
     </main>
     
+    <div class="mobile-menu container" data-mobile id="mobile-menu">
+  <div class="header-mobile">
+    <a href="../index.html" class="logo"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
+    <button type="button" class="mobile-menu-btns" data-mobile-close>
+      <svg class="mobile-menu-icon" width="32" height="32" id="icon_close">
+        <use href="/portfolio/assets/icons-8d884d68.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+  </div>
+
+  <nav class="nav-menu-mobile">
+    <ul class="menu-list-mobile">
+      <li class="menu-item-mobile"><a href="#">About me</a></li>
+      <li class="menu-item-mobile"><a href="#"></a>Projects</li>
+      <li class="menu-item-mobile"><a href="#"></a>Contacts</li>
+    </ul>
+  </nav>
+  <div class="switch-mobiles">
+    <label class="switch-mobile">
+      <input type="checkbox" id="theme-toggle-mobile" />
+      <span class="slider-mobile"></span>
+    </label>
+  </div>
+</div>
+
     
   </body>
 </html>

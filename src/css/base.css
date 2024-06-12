@@ -24,109 +24,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Poppins Regular', sans-serif;
-  background-color: #f0f0f0;
-  box-sizing: border-box;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-:root {
-  --color-text: #292929;
-  --accet-green: #00b068;
-  --bg-color: #f0f0f0;
-  --light-grey: #e4e5e6;
-  --light-accent: #14c57c;
-}
-
-section {
-  padding: 80px 0;
-}
-
-.container {
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 360px) {
-  .container {
-    width: 360px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
-  }
-  section {
-    padding: 124px 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0 32px;
-  }
-  section {
-    padding: 164px 0;
-  }
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-
-
-
-
-
-
-
-
-/* @font-face {
-  font-family: 'Impact';
-  src: url('../fonts/impact.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins Regular';
-  src: url('../fonts/Poppins-Regular.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Poppins Light';
-  src: url('../fonts/Poppins-Light.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Poppins Medium';
-  src: url('../fonts/Poppins-Medium.ttf') format('ttf');
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 h1,
 h2,
 h3,
@@ -260,4 +157,4 @@ h3 {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}

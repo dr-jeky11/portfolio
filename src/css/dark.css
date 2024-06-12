@@ -1,0 +1,8 @@
+body {
+  transition: background-color 300ms ease;
+}
+
+body.dark,
+.dark .modal-header {
+  background-color: #1e2023;
+}

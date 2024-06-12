@@ -1,51 +1,51 @@
 const imgArr = [{
-    url: "../img/my-projects/proj-1-x1.jpg",
-    urlX2: "../img/my-projects/proj-1-x2.jpg",
+    url: "./img/my-projects/proj-1-x1.jpg",
+    urlX2: "./img/my-projects/proj-1-x2.jpg",
     title: "wallet webservice"
 },
 {
-    url: "../img/my-projects/proj-2-x1.jpg",
-    urlX2: "../img/my-projects/proj-2-x2.jpg",
+    url: "./img/my-projects/proj-2-x1.jpg",
+    urlX2: "./img/my-projects/proj-2-x2.jpg",
     title: "Green harvest webservice"
 },
 {
-    url: "../img/my-projects/proj-3-x1.jpg",
-    urlX2: "../img/my-projects/proj-3-x2.jpg",
+    url: "./img/my-projects/proj-3-x1.jpg",
+    urlX2: "./img/my-projects/proj-3-x2.jpg",
     title: "English Exellence webservice"
 },
 {
-    url: "../img/my-projects/proj-4-x1.jpg",
-    urlX2: "../img/my-projects/proj-4-x2.jpg",
+    url: "./img/my-projects/proj-4-x1.jpg",
+    urlX2: "./img/my-projects/proj-4-x2.jpg",
     title: "power pulse webservice"
 },
 {
-    url: "../img/my-projects/proj-5-x1.jpg",
-    urlX2: "../img/my-projects/proj-5-x2.jpg",
+    url: "./img/my-projects/proj-5-x1.jpg",
+    urlX2: "./img/my-projects/proj-5-x2.jpg",
     title: "mimino website"
 },
 {
-    url: "../img/my-projects/proj-6-x1.jpg",
-    urlX2: "../img/my-projects/proj-6-x2.jpg",
+    url: "./img/my-projects/proj-6-x1.jpg",
+    urlX2: "./img/my-projects/proj-6-x2.jpg",
     title: "vyshyvanka vibes Landing Page"
 },
 {
-    url: "../img/my-projects/proj-7-x1.jpg",
-    urlX2: "../img/my-projects/proj-7-x2.jpg",
+    url: "./img/my-projects/proj-7-x1.jpg",
+    urlX2: "./img/my-projects/proj-7-x2.jpg",
     title: "chego jewelry website"
 },
 {
-    url: "../img/my-projects/proj-8-x1.jpg",
-    urlX2: "../img/my-projects/proj-8-x2.jpg",
+    url: "./img/my-projects/proj-8-x1.jpg",
+    urlX2: "./img/my-projects/proj-8-x2.jpg",
     title: "energy flow webservice"
 },
 {
-    url: "../img/my-projects/proj-9-x1.jpg",
-    urlX2: "../img/my-projects/proj-9-x2.jpg",
+    url: "./img/my-projects/proj-9-x1.jpg",
+    urlX2: "./img/my-projects/proj-9-x2.jpg",
     title: "fruitbox online store"
 },
 {
-    url: "../img/my-projects/proj-10-x1.jpg",
-    urlX2: "../img/my-projects/proj-10-x2.jpg",
+    url: "./img/my-projects/proj-10-x1.jpg",
+    urlX2: "./img/my-projects/proj-10-x2.jpg",
     title: "starlight studio landing page"
 },
 ];

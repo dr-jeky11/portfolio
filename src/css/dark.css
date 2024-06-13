@@ -108,3 +108,21 @@ body.dark,
   background-color: #14c57c;
   transition: background-color 300ms ease;
 }
+
+.dark .marquee {
+  color: #f0f0f0;
+  background-color: #214136;
+}
+
+.dark .marquee-li::marker {
+  color: #14c57c;
+}
+
+.dark .incl-marquee {
+  color: #14c57c;
+  background-color: #2a2d32;
+}
+
+.dark .incl-marquee-li::marker {
+  color: #f0f0f0;
+}

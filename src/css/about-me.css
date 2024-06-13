@@ -1,0 +1,110 @@
+.about-me {
+    padding: 20px;
+    max-width: 360px;
+}
+
+.about-me-title {
+    color: #292929;
+    font-family: Impact;
+    font-size: 52px;
+    font-weight: 360;
+    line-height: 1.23;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: left;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.about-me-green {
+    color: #00B068;
+}
+
+.about-me-content {}
+
+.about-me-image {}
+
+.about-me-img {
+    max-width: 100%;
+    width: 320px;
+    height: 374px;
+    border-radius: 16px;
+    display: block;
+}
+
+.about-me-bio {}
+
+.about-me-bio-title {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 360;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.about-me-bio-text {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.50;
+    letter-spacing: 0.05em;
+    margin-bottom: 24px;
+    align-self: stretch;
+}
+
+.about-me-details {}
+
+.about-me-education {}
+
+.about-me-education-title {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 360;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.about-me-education-list {}
+
+.about-me-education-item {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.50;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+}
+
+.about-me-role {}
+
+.about-me-role-title {
+    color: #292929;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 360;
+line-height: 1.25;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+margin-bottom: 32px;
+}
+
+.about-me-role-list {}
+
+.about-me-role-item {
+    color: #292929;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.50;
+letter-spacing: 0.05em;
+margin-bottom: 12px;
+}

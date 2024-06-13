@@ -2,6 +2,7 @@
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -21,6 +22,7 @@
   letter-spacing: 0.015em;
   text-transform: uppercase;
   background-color: #bcdfd1;
+  z-index: 12;
 }
 
 .marquee-inner {
@@ -115,6 +117,9 @@
 }
 
 @media (min-width: 768px) {
+  .tech-skills {
+    padding: 84px 0;
+  }
   .marquee {
     width: 1517px;
     margin-right: -30px;

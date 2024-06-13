@@ -3,12 +3,31 @@ body {
 }
 
 body.dark,
-.dark .modal-header {
+.dark .modal-header,
+.dark .page-footer {
   background-color: #1e2023;
 }
 
 .dark .logo,
-.dark .header-menu-link {
+.dark .header-menu-link,
+.dark .about-me-title,
+.dark .about-me-bio-title,
+.dark .about-me-bio-text,
+.dark .about-me-education-title,
+.dark .about-me-education-item,
+.dark .about-me-role-title,
+.dark .about-me-role-item,
+.dark .projects-list-link,
+.dark .projects-button,
+.dark .projects-title,
+.dark .projects-list-text,
+.dark .projects-list-title,
+.dark .benefits-title,
+.dark .benefits-subtitle,
+.dark .benefits-text,
+.dark .footer-name-text,
+.dark .footer-soc-link,
+.dark .footer-copyright-text {
   color: #f0f0f0;
 }
 
@@ -17,12 +36,16 @@ body.dark,
   transition: color 400ms ease;
 }
 
-.dark .logo-green {
+.dark .logo-green,
+.dark .about-me-green,
+.dark .projects-button:hover,
+.dark .projects-list-icon,
+.dark .span,
+.dark .benefits-span {
   color: #14c57c;
 }
 
-.dark .ac,
-.dark .reviews-list-item {
+.dark .projects-list-link {
   background-color: #2a2d32;
 }
 .dark .ac.is-active {
@@ -60,7 +83,7 @@ body.dark,
   transition: background-color 300ms ease;
 }
 
-.dark .my-project-link:hover {
+.dark .projects-list-link:hover {
   background-color: #3b3f45;
 }
 

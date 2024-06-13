@@ -14,9 +14,9 @@ body.dark,
 .dark .about-me-bio-title,
 .dark .about-me-bio-text,
 .dark .about-me-education-title,
-.dark .about-me-education-item,
+.dark .about-me-education-text,
 .dark .about-me-role-title,
-.dark .about-me-role-item,
+.dark .about-me-role-text,
 .dark .marquee,
 .dark .incl-marquee-li::marker,
 .dark .projects-list-link,
@@ -27,6 +27,9 @@ body.dark,
 .dark .benefits-title,
 .dark .benefits-subtitle,
 .dark .benefits-text,
+.dark .faq-title,
+.dark .lwt-title,
+.dark .lwt-text,
 .dark .footer-name-text,
 .dark .footer-soc-link,
 .dark .footer-copyright-text {
@@ -45,7 +48,9 @@ body.dark,
 .dark .projects-button:hover,
 .dark .projects-list-icon,
 .dark .span,
-.dark .benefits-span {
+.dark .benefits-span,
+.dark .faq-span,
+.dark .lwt-title > span {
   color: #14c57c;
 }
 

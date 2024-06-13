@@ -1,5 +1,6 @@
 .benefits {
   padding-top: 92px;
+  padding-bottom: 80px;
 }
 
 .benefits-container {
@@ -64,6 +65,7 @@
 @media screen and (min-width: 768px) {
   .benefits {
     padding-top: 136px;
+    padding-bottom: 124px;
   }
 
   .benefits-container {
@@ -120,7 +122,17 @@
 @media screen and (min-width: 1280px) {
   .benefits {
     padding-top: 176px;
-    /* background-image: url(../img/); */
+    padding-bottom: 164px;
+    background-image: url(../img/decor-bg/decor-bg-4.webp);
+    background-repeat: no-repeat;
+    background-size: 526px 408px;
+    background-position: 726px 53px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .benefits {
+      background-image: url(../img/decor-bg/decor-bg-4-2x.webp);
+    }
   }
 
   .benefits-container {

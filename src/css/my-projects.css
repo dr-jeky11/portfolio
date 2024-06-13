@@ -1,5 +1,5 @@
 .projects {
-        font-family: 'Poppins Light', sans-serif;
+        /* font-family: 'Poppins Light', sans-serif; */
     box-sizing: border-box;
     color:  #292929;
         font-size: 16px;
@@ -7,11 +7,10 @@
         font-weight: 300;
         line-height: 1.5;
         letter-spacing: 0.5px;
-        
+        padding: 40px 0;
         
 }
 
-.container {}
 
 .projects-title {
         font-family: Impact;
@@ -45,11 +44,14 @@
 }
 
 .projects-list-text {
+    font-family: 'Poppins Light', sans-serif;
+
     margin-bottom: 16px;
 }
 
 
 .projects-list-title {
+    font-family: 'Poppins Medium', sans-serif;
         font-size: 32px;
         font-weight: 500;
         line-height: 1.25;
@@ -58,6 +60,8 @@
 }
 
 .projects-list-link {
+    font-family: 'Poppins Medium', sans-serif;
+
     box-sizing: border-box;
     display: flex;
     gap: 12px;
@@ -69,6 +73,11 @@
         background-color: #E4E5E6;
         border-radius: 8px;
         margin-left: 195px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects-list-link:hover {
+    background-color: #BBB;
 }
 
 .projects-list-icon {
@@ -79,7 +88,9 @@
     box-sizing: border-box;
     display: block;
     margin: 0 auto;
-
+        
+        cursor: pointer;
+        font-family: 'Poppins';
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -93,6 +104,8 @@
         margin: 0 auto;
         border: none;
         margin-top: 40px;
+        background-color: transparent;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 
 }
 
@@ -105,3 +118,60 @@
     left: 24px;
     background-color: #00B068;
 }
+
+
+.projects-button:hover {
+   color: #00B068;
+}
+
+
+
+
+
+/* //////////////////////////////////////////// */
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .projects-list-img {
+        width: 704px;
+        height: 404px;
+        margin-bottom: 16px;
+        border-radius: 24px;
+    }
+
+    .projects-list-link {
+        margin: 0;
+    }
+
+    .projects-list-title {
+        margin: 0;
+        font-size: 36px;
+        line-height: 1.33; 
+    }
+
+    .list-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projects-list-item {
+        margin-bottom: 60px;
+    }
+
+    .projects-list-text {
+        margin-bottom: 20px;
+    }
+
+    .projects-title {
+        font-size: 108px;
+        line-height: 1.15;
+        margin-bottom: 60px;
+
+}
+}
+
+@media screen and (min-width: 1280px) {}

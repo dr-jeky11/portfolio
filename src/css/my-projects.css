@@ -1,107 +1,98 @@
 .projects {
-        font-family: 'Poppins Light', sans-serif;
-    box-sizing: border-box;
-    color:  #292929;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 1.5;
-        letter-spacing: 0.5px;
-        
-        
+  font-family: 'Poppins Light', sans-serif;
+  box-sizing: border-box;
+  color: #292929;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
-.container {}
-
 .projects-title {
-        font-family: Impact;
-        font-size: 52px;
-        font-weight: 400;
-        line-height: 1.23;
-        letter-spacing: 1.8px;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 40px;
-
+  font-family: Impact;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .span {
-    color: #00B068;
+  color: #00b068;
 }
 
-.projects-list {}
-
 .projects-list-item {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .projects-list-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .projects-list-img {
-    border-radius: 16px;
-    margin-bottom: 12px;
+  border-radius: 16px;
+  margin-bottom: 12px;
 }
 
 .projects-list-text {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-
 .projects-list-title {
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 1.25;
-        text-transform: uppercase;
-        margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .projects-list-link {
-    box-sizing: border-box;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    width: 125px;
-    height: 48px;
-    padding: 12px 24px;
-        font-weight: 500;
-        background-color: #E4E5E6;
-        border-radius: 8px;
-        margin-left: 195px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 125px;
+  height: 48px;
+  padding: 12px 24px;
+  font-weight: 500;
+  background-color: #e4e5e6;
+  border-radius: 8px;
+  margin-left: 195px;
 }
 
 .projects-list-icon {
-    stroke: #00B068
+  stroke: #00b068;
 }
 
 .projects-button {
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
 
-        font-size: 18px;
-        font-weight: 400;
-        text-transform: uppercase;
-        line-height: 1.55;
-        letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.55;
+  letter-spacing: 0.5px;
 
-        padding: 12px 24px;
-        /* width: 154px;
+  padding: 12px 24px;
+  /* width: 154px;
         height: 52px; */
-        position: relative;
-        margin: 0 auto;
-        border: none;
-        margin-top: 40px;
-
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  margin-top: 40px;
 }
 
 .projects-button::after {
-    content: "";
-    position: absolute;
-    width: 106px;
-    height: 2px;
-    bottom: 12px;
-    left: 24px;
-    background-color: #00B068;
+  content: '';
+  position: absolute;
+  width: 106px;
+  height: 2px;
+  bottom: 12px;
+  left: 24px;
+  background-color: #00b068;
 }

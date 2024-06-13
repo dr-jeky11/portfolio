@@ -219,51 +219,10 @@ input:checked + .slider:before {
     z-index: 999;
     /* padding-top: 32px; */
   }
+
   .header-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    align-items: center;
-    margin-left: 146px;
   }
-
-  .header-menu-link {
-    color: #292929;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-
-  .header-menu-link:hover {
-    color: #00b068;
-  }
-
-  /* .mobile-menu {
-  top: 50%;
-  left: 100%;
-  transform: translate(-100%, -50%) scale(1);
-  width: 350px;
-  
-} */
 }
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    display: flex;
-    /* padding: 36px 32px; */
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .page-nav {
-    display: flex;
-    align-items: center;
-  }
-
-  .header-menu {
-    margin-left: 590px;
-  }

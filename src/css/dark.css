@@ -1,4 +1,5 @@
 body[data-theme='light'] {
+    transition: background-color 300ms ease;
     --background-color: #ffffff;
     --text-color: black;
 }

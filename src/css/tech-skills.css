@@ -1,0 +1,116 @@
+.tech-skills {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1280px;
+  height: 282px;
+}
+
+.tech-skills-title {
+  display: none;
+}
+
+.marquee {
+  width: 1517px;
+  margin-right: -30px;
+  margin-left: -211px;
+  padding: 0;
+  overflow: hidden;
+  color: #292929;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  background-color: #bcdfd1;
+}
+
+.marquee-inner {
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.marquee-line {
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0;
+  display: inline-flex;
+  padding: 40px 8px;
+  align-items: center;
+  gap: 16px;
+  min-width: 50%;
+  white-space: nowrap; /* Забезпечуємо рух тексту в одному рядку */
+  overflow: hidden; /* Ховаємо текст, який виходить за межі контейнера */
+  animation: marqueeLine 12s linear infinite; /* Застосовуємо анімацію */
+}
+
+.marquee-li {
+  padding-right: 16px;
+}
+
+.marquee-li::marker {
+  color: #00b068;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.incl-marquee {
+  width: 1517px;
+  margin-right: -30px;
+  margin-left: -211px;
+  padding: 0;
+  overflow: hidden;
+  transform: rotate(2deg);
+  color: #00b068;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  background-color: #e4e5e6;
+}
+
+.incl-marquee-inner {
+  display: inline-flex;
+}
+
+.incl-marquee-line {
+  list-style-position: inside;
+  list-style-type: square;
+  transform: rotate(2deg);
+  margin: 0;
+  display: inline-flex;
+  padding: 40px 8px;
+  align-items: center;
+  gap: 16px;
+  min-width: 50%;
+  white-space: nowrap; /*Забезпечуємо рух тексту в одному рядку */
+  overflow: hidden; /*Ховаємо текст, який виходить за межі контейнера */
+  animation: marqueeLine 19s linear infinite; /*Застосовуємо анімацію */
+}
+
+.incl-marquee-li {
+  padding-right: 16px;
+}
+
+.incl-marquee-li::marker {
+  color: #292929;
+  border-radius: 2px;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

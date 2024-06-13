@@ -65,13 +65,33 @@ address {
 
 body {
   font-family: 'Poppins Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   background-color: #f0f0f0;
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
 }
 
-section {
-  padding: 80px 0;
+h1 {
+  font-family: 'Impact';
+  font-size: 64px;
+  letter-spacing: 1.8px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-family: 'Impact';
+  font-size: 52px;
+  letter-spacing: 1.8px;
+  line-height: 1.23;
+}
+
+h3 {
+  font-family: 'Poppins Medium';
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
 }
 
 .container {
@@ -81,27 +101,42 @@ section {
 
 @media screen and (min-width: 360px) {
   .container {
-    width: 360px;
+    max-width: 360px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
-  section {
-    padding: 124px 0;
+
+  h1 {
+    font-family: 'Impact';
+    font-size: 136px;
+    letter-spacing: 1.8px;
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-family: 'Impact';
+    font-size: 108px;
+    letter-spacing: 1.8px;
+    line-height: 1.15;
+  }
+
+  h3 {
+    font-family: 'Poppins Medium';
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 1.33;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 32px;
-  }
-  section {
-    padding: 164px 0;
   }
 }
 

@@ -1,8 +1,16 @@
-body {
-  transition: background-color 300ms ease;
+body[data-theme='light'] {
+    transition: background-color 300ms ease;
+    --background-color: #ffffff;
+    --text-color: black;
 }
 
-body.dark,
-.dark .modal-header {
-  background-color: #1e2023;
+
+body[data-theme='dark'] {
+    --background-color: #000;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
 }

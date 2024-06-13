@@ -64,11 +64,13 @@ address {
 }
 
 body {
-  font-family: 'Poppins Regular', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.2px;
   background-color: #f0f0f0;
+  color: #292929;
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -88,7 +90,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Poppins Medium';
+  font-family: 'Poppins';
+  font-weight: 500;
   font-size: 32px;
   letter-spacing: 0.5px;
   line-height: 1.25;
@@ -126,8 +129,9 @@ h3 {
   }
 
   h3 {
-    font-family: 'Poppins Medium';
+    font-family: 'Poppins';
     font-size: 36px;
+    font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 1.33;
   }

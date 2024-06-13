@@ -14,75 +14,85 @@
     />
     
     <script type="module" crossorigin src="/portfolio/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/portfolio/assets/index-55c9cc3d.css">
+    <link rel="stylesheet" href="/portfolio/assets/index-f93eb4c7.css">
   </head>
   <body>
-    <header class="header" id="header"> 
-  <div class="header-container container"> 
-    <nav class="page-nav"> 
-      <a class="logo" href="./index.html">Lloyd<span class="logo-green">Jefferson.</span></a> 
-       
-      <ul class="header-menu"> 
-        <li><label class="theme-toggle" for="theme-check"> 
-          <input class="switch-theme-checkbox" value="light" type="checkbox" id="theme-check" /> 
-          <span class="slider"></span> 
-        </label></li> 
-        <li class="header-menu-item"> 
-          <a class="header-menu-link" href="#about-me">About me</a> 
-        </li> 
-        <li class="header-menu-item"> 
-          <a class="header-menu-link" href="#my-project">Projects</a> 
-        </li> 
-        <li class="header-menu-item"> 
-          <a class="header-menu-link" href="#work-together">Contacts</a> 
-        </li> 
-      </ul> 
-      </nav> 
-    <button type="button" class="mobile-menu-open"> 
-      <svg class="mobile-menu-burger" width="32" height="32"> 
-        <use href="/portfolio/assets/icons-8c7a1b10.svg#icon-menu"></use> 
-      </svg> 
-    </button> 
-  </div> 
- 
-  <div class="backdrop"> 
-    <div class="mobile-menu"> 
-      <div class="mobile-menu-header"> 
-        <a class="logo" href="./index.html">Lloyd<span class="logo-green">Jefferson.</span></a> 
-        <button type="button" class="mobile-menu-close"> 
-          <svg class="mobile-menu-icon" width="32" height="32"> 
-            <use href="/portfolio/assets/icons-8c7a1b10.svg#icon-menu-close"></use> 
-          </svg> 
-        </button> 
-      </div> 
-      <nav> 
-        <ul class="mobile-menu-nav"> 
-          <li class="mobile-menu-list"> 
-            <a href="#about-me" class="mobile-menu-item">About me</a> 
-          </li> 
-          <li class="mobile-menu-list"> 
-            <a href="#projects" class="mobile-menu-item">Projects</a> 
-          </li> 
-          <li class="mobile-menu-list"> 
-            <a href="#contacts" class="mobile-menu-item">Contacts</a> 
-          </li> 
-        </ul> 
-      </nav> 
-       
-    </div> 
-  </div> 
-</header> 
- 
-<div class="nav-switcher mobile-switcher"> 
-      <div class="switch-theme-wrapper"> 
-        <input class="switch-theme-checkbox" value="light" type="checkbox" id="theme-checks" /> 
- 
-        <label class="theme-toggle" for="theme-check"></label> 
-        <div class="checkbox-circle"></div> 
-      </div> 
-    </div>  
- </div> 
-   
+    <header class="header" id="header">
+  <div class="header-container container">
+    <a class="logo" href="./index.html"
+      >Lloyd<span class="logo-green">Jefferson.</span></a
+    >
+    <button class="burger-icon" type="button" aria-label="mobile menu">
+      <svg width="32" height="32" class="icon-color">
+        <use href="/portfolio/assets/icons-8c7a1b10.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <button class="close-modal" type="button" aria-label="close mobile menu">
+      <svg width="32" height="32" class="icon-color">
+        <use href="/portfolio/assets/icons-8c7a1b10.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <div class="nav-switcher">
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-check"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+
+      <nav class="header-navigation">
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#about-me">About me</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#my-project">Projects</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#work-together">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="modal-header">
+  <div class="modal-content">
+    <nav>
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#my-project">Projects</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-switcher mobile-switcher">
+      <div class="switch-theme-wrapper">
+        <input
+          class="switch-theme-checkbox"
+          value="light"
+          type="checkbox"
+          id="theme-checks"
+        />
+
+        <label class="theme-toggle" for="theme-check"></label>
+        <div class="checkbox-circle"></div>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
     <main>

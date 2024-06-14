@@ -1,6 +1,6 @@
 .projects {
         /* font-family: 'Poppins Light', sans-serif; */
-    box-sizing: border-box;
+    
     color:  #292929;
         font-size: 16px;
         font-style: normal;
@@ -62,7 +62,6 @@
 .projects-list-link {
     font-family: 'Poppins Medium', sans-serif;
 
-    box-sizing: border-box;
     display: flex;
     gap: 12px;
     align-items: center;
@@ -85,12 +84,11 @@
 }
 
 .projects-button {
-    box-sizing: border-box;
     display: block;
     margin: 0 auto;
         
         cursor: pointer;
-        font-family: 'Poppins';
+        font-family: sans-serif;
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -101,7 +99,6 @@
         /* width: 154px;
         height: 52px; */
         position: relative;
-        margin: 0 auto;
         border: none;
         margin-top: 40px;
         background-color: transparent;
@@ -128,13 +125,40 @@
 
 
 
-/* //////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 @media screen and (min-width: 768px) {
+
+    .projects {
+        padding: 62px 0;
+    }
+
+    .projects-title {
+        font-size: 108px;
+        line-height: 1.15;
+        margin-bottom: 60px;
+    }
+
+    .projects-list-item {
+        margin-bottom: 60px;
+    }
+
     .projects-list-img {
         width: 704px;
         height: 404px;
@@ -142,14 +166,8 @@
         border-radius: 24px;
     }
 
-    .projects-list-link {
-        margin: 0;
-    }
-
-    .projects-list-title {
-        margin: 0;
-        font-size: 36px;
-        line-height: 1.33; 
+    .projects-list-text {
+        margin-bottom: 20px;
     }
 
     .list-title-container {
@@ -158,20 +176,75 @@
         align-items: center;
     }
 
-    .projects-list-item {
-        margin-bottom: 60px;
+    .projects-list-title {
+        margin: 0;
+        font-size: 36px;
+        line-height: 1.33; 
     }
 
-    .projects-list-text {
-        margin-bottom: 20px;
+    .projects-list-link {
+        margin: 0;
+    }
+    
+
+    .projects-button {
+        line-height: 1.6;
+        font-size: 20px;
+    }
+
+    .projects-button::after {
+        width: 117px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+
+    .projects {
+        padding: 82px 0;
+    }
+
+    .container.desktop-proj-cont {
+        padding: 0 136px;
     }
 
     .projects-title {
-        font-size: 108px;
-        line-height: 1.15;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
+    }
+
+    .projects-list-item {
+        margin-bottom: 80px;
+    }
+
+    .projects-list-img {
+        width: 1008px;
+        height: 578px;
+    }
+
+    .list-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 }
-}
-
-@media screen and (min-width: 1280px) {}

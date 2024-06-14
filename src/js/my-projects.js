@@ -87,6 +87,7 @@ renderArr.push(`<li class="projects-list-item">
   width="320"
 />
 <p class="projects-list-text">React, JavaScript, Node JS, Git</p>
+<div class="list-title-container">
 <h3 class="projects-list-title">${title}</h3>
 <a class="projects-list-link" href="/index.html" target="_blank" rel="noopener noreferrer"
   >VISIT
@@ -94,6 +95,7 @@ renderArr.push(`<li class="projects-list-item">
     <use href="/img/icons.svg#icon-arrow-up"></use>
   </svg>
 </a>
+</div>
 </li>`)
 }
 loadNumber += 3;

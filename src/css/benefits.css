@@ -1,10 +1,5 @@
 .benefits {
-  padding-top: 92px;
-  padding-bottom: 80px;
-}
-
-.benefits-container {
-  width: 320px;
+  padding: 40px 0;
 }
 
 .benefits-title {
@@ -64,12 +59,11 @@
 
 @media screen and (min-width: 768px) {
   .benefits {
-    padding-top: 136px;
-    padding-bottom: 124px;
+    padding: 62px 0;
   }
 
   .benefits-container {
-    width: 704px;
+    width: 768px;
   }
 
   .benefits-title {
@@ -121,22 +115,31 @@
 
 @media screen and (min-width: 1280px) {
   .benefits {
-    padding-top: 176px;
-    padding-bottom: 164px;
+    padding-top: 164px;
+    padding-bottom: 82px;
+  }
+
+  .benefits-points {
+    width: 526px;
+    height: 408px;
+    position: absolute;
+    top: -123px;
+    right: 0;
     background-image: url(../img/decor-bg/decor-bg-4.webp);
     background-repeat: no-repeat;
     background-size: 526px 408px;
-    background-position: 726px 53px;
+    z-index: -1;
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .benefits {
+    .benefits-points {
       background-image: url(../img/decor-bg/decor-bg-4-2x.webp);
     }
   }
 
   .benefits-container {
-    width: 1216px;
+    width: 1280px;
+    position: relative;
   }
 
   .benefits-title {

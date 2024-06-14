@@ -53,17 +53,13 @@
 }
 
 .faq-text {
-  display: none;
+  overflow: hidden;
+  max-height: 168px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  transition: display 250ms ease;
-}
-
-.faq-item.active .faq-text {
-  display: block;
 }
 
 .faq-btn {
@@ -129,6 +125,10 @@
     line-height: 1.6;
     margin-bottom: 0;
   }
+
+  .faq-text {
+    max-height: 72px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -187,5 +187,9 @@
   .faq-item-title {
     max-width: 544px;
     margin-bottom: 0;
+  }
+
+  .faq-text {
+    max-height: 96px;
   }
 }

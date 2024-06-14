@@ -5,7 +5,6 @@
 }
 
 .faq-container {
-  max-width: 320px;
   overflow: visible;
 }
 
@@ -103,19 +102,17 @@
   display: block;
 }
 
+/* -------------------min-width: 768px------------------- */
+
 @media screen and (min-width: 768px) {
   .faq {
     padding-top: 62px;
     padding-bottom: 124px;
   }
 
-  .faq-container {
-    max-width: 704px;
-  }
-
   .faq-title {
     margin-bottom: 60px;
-    max-width: 592px;
+    max-width: 704px;
     letter-spacing: 0.02em;
   }
 
@@ -130,6 +127,8 @@
     max-height: 72px;
   }
 }
+
+/* -------------------min-width: 1280px------------------- */
 
 @media screen and (min-width: 1280px) {
   .faq {

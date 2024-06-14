@@ -144,7 +144,7 @@
     position: absolute;
     width: 526px;
     height: 408px;
-    background-image: url(./img/decor-bg/decor-bg-3.webp);
+    background-image: url(../img/decor-bg/decor-bg-3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     bottom: 164px;
@@ -157,7 +157,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .faq::before {
-      background-image: url(./img/decor-bg/decor-bg-3-2x.webp);
+      background-image: url(../img/decor-bg/decor-bg-3-2x.webp);
     }
   }
 

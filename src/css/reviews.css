@@ -1,0 +1,104 @@
+.reviews-title {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.reviews-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 320px;
+    height: 296px;
+    background-color: #E4E5E6;
+}
+
+.reviews-text {
+    font-family: Poppins;
+    letter-spacing: 0.03em;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.reviews-buttons-list {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.reviews-buttons-list button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(41, 41, 41, 0.30);
+    background-color: transparent;
+    transition: all 250ms ease;
+    margin-top: 24px;
+}
+
+.reviews-buttons-list button:hover {
+    background-color: #E4E5E6;
+}
+
+.reviews-buttons-list button:active {
+  background-color: transparent;
+}
+
+.reviews-icon {
+  stroke: #292929;
+  fill: transparent;
+}
+
+
+/* -------------------min-width: 768px------------------- */
+
+@media screen and (min-width: 768px) {
+
+    .reviews h2 {
+        letter-spacing: 0.02em;
+      }
+
+    .reviews-item {
+        max-width: 704px;
+        height: 224px;
+    }
+
+
+
+}
+
+
+/* -------------------min-width: 1280px------------------- */
+
+@media screen and (min-width: 1280px) {
+
+    .reviews-item {
+        width: calc((100% - 32px) / 2);
+        height: 224px;
+    }
+
+    .reviews-buttons-list button {
+        width: 48px;
+        height: 48px;
+    }
+
+}

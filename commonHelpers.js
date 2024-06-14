@@ -9,7 +9,7 @@ import{A as j}from"./assets/vendor-8f98089f.js";(function(){const s=document.cre
 <p class="projects-list-text">React, JavaScript, Node JS, Git</p>
 <div class="list-title-container">
 <h3 class="projects-list-title">${o}</h3>
-<a class="projects-list-link" href="/index.html" target="_blank" rel="noopener noreferrer"
+<a class="projects-list-link" href="#"
   >VISIT
   <svg class="projects-list-icon" width="24" height="24">
     <use href="/img/icons.svg#icon-arrow-up"></use>

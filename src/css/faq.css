@@ -75,6 +75,11 @@
   padding: 0;
 }
 
+.faq-btn:hover,
+.faq-btn:focus {
+  outline: 0;
+}
+
 .faq-btn .faq-btn-open {
   transform: rotate(180deg);
 }
@@ -134,7 +139,7 @@
   .faq {
     padding-top: 82px;
     padding-bottom: 164px;
-    max-width: 1280px;
+    width: 1280px;
     position: relative;
   }
 
@@ -164,7 +169,6 @@
     position: relative;
     width: 100%;
     overflow: visible;
-    max-width: 1216px;
     height: 1020px;
   }
 

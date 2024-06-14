@@ -1,5 +1,4 @@
 .about-me {
-    padding: 20px;
     max-width: 360px;
 }
 
@@ -11,7 +10,6 @@
     line-height: 1.23;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    text-align: left;
     white-space: nowrap;
     display: inline-block;
 }
@@ -30,6 +28,7 @@
     height: 374px;
     border-radius: 16px;
     display: block;
+    margin-bottom: 40px;
 }
 
 .about-me-bio {}
@@ -71,9 +70,28 @@
     margin-bottom: 32px;
 }
 
-.about-me-education-list {}
+.about-me-education-list {
+    list-style: none;
+    padding-left: 40px;
+}
 
-.about-me-education-item {
+.about-me-education-item::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 1px;
+    background: #00B068;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-me-education-item {}
+
+.about-me-education-text {
     color: #292929;
     font-family: Poppins;
     font-size: 16px;
@@ -88,23 +106,41 @@
 
 .about-me-role-title {
     color: #292929;
-font-family: Poppins;
-font-size: 32px;
-font-weight: 360;
-line-height: 1.25;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-margin-bottom: 32px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 360;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
-.about-me-role-list {}
+.about-me-role-list {
+    list-style: none;
+}
 
-.about-me-role-item {
+.about-me-role-item {}
+
+.about-me-role-text {
     color: #292929;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.50;
-letter-spacing: 0.05em;
-margin-bottom: 12px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.50;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+}
+
+.about-me-role-item::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 1px;
+    background: #00B068;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

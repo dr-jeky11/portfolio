@@ -1,16 +1,161 @@
-body[data-theme='light'] {
-    transition: background-color 300ms ease;
-    --background-color: #ffffff;
-    --text-color: black;
-}
-
-
-body[data-theme='dark'] {
-    --background-color: #000;
-    --text-color: white;
-}
-
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+  transition: background-color 300ms ease;
+}
+
+body.dark,
+.dark .modal-header,
+.dark .page-footer {
+  background-color: #1e2023;
+}
+
+.dark .logo,
+.dark .header-menu-link,
+.dark .about-me-title,
+.dark .about-me-bio-title,
+.dark .about-me-bio-text,
+.dark .about-me-education-title,
+.dark .about-me-education-text,
+.dark .about-me-role-title,
+.dark .about-me-role-text,
+.dark .marquee,
+.dark .incl-marquee-li::marker,
+.dark .projects-list-link,
+.dark .projects-button,
+.dark .projects-title,
+.dark .projects-list-text,
+.dark .projects-list-title,
+.dark .benefits-title,
+.dark .benefits-subtitle,
+.dark .benefits-text,
+.dark .faq-title,
+.dark .lwt-title,
+.dark .lwt-text,
+.dark .footer-name-text,
+.dark .footer-soc-link,
+.dark .footer-copyright-text {
+  color: #f0f0f0;
+}
+
+.logo,
+.header-menu-link {
+  transition: color 400ms ease;
+}
+
+.dark .logo-green,
+.dark .about-me-green,
+.dark .marquee-li::marker,
+.dark .incl-marquee,
+.dark .projects-button:hover,
+.dark .projects-list-icon,
+.dark .span,
+.dark .benefits-span,
+.dark .faq-span,
+.dark .lwt-title > span {
+  color: #14c57c;
+}
+
+.dark .incl-marquee,
+.dark .projects-list-link {
+  background-color: #2a2d32;
+}
+.dark .ac.is-active {
+  background-color: #204136;
+}
+
+.hero-soc-list {
+  transition: background-color 300ms ease;
+}
+
+.dark .fac-container .accordion-container .ac .ac-trigger,
+.dark .fac-container .accordion-container .ac .ac-panel .ac-text {
+  color: #f0f0f0;
+}
+
+.dark .accordion-container .ac {
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .marquee {
+  background-color: #214136;
+}
+
+.dark .skills-slider-container.skills-slider-container-bottom {
+  z-index: 1;
+}
+.dark .skills-slider-container-bottom,
+.dark .my-project-link {
+  background: #2a2d32;
+}
+
+.dark .my-project-link {
+  background: #2a2d32;
+  color: #f0f0f0;
+  transition: background-color 300ms ease;
+}
+
+.dark .projects-list-link:hover {
+  background-color: #3b3f45;
+}
+
+.dark .education-item::before,
+.dark .role-item::before,
+.dark .skill-item::before {
+  background-color: #14c57c;
+}
+
+.dark .hero-decor-rectangle {
+  background-color: #204136;
+}
+.hero-decor-rectangle:hover {
+  background-color: #14c57c;
+}
+
+.dark .header-menu-link {
+  transition: color 300ms ease;
+}
+
+.dark .header-menu-link:hover {
+  color: #14c57c;
+}
+
+.dark .projects-button {
+  color: #f0f0f0;
+  transition: color 300ms ease;
+}
+
+.dark .reviews-icon,
+.dark .modal-img {
+  stroke: #f0f0f0;
+}
+
+.dark .input-text,
+.dark .textarea-text {
+  background-color: #2a2d32;
+}
+.dark .input-text::placeholder,
+.dark .textarea-text::placeholder {
+  color: rgba(240, 240, 240, 0.4);
+}
+
+.dark .form-button {
+  background-color: #14c57c;
+  transition: background-color 300ms ease;
+}
+
+.dark .marquee {
+  color: #f0f0f0;
+  background-color: #214136;
+}
+
+.dark .marquee-li::marker {
+  color: #14c57c;
+}
+
+.dark .incl-marquee {
+  color: #14c57c;
+  background-color: #2a2d32;
+}
+
+.dark .incl-marquee-li::marker {
+  color: #f0f0f0;
 }

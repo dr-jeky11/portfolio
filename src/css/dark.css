@@ -5,7 +5,8 @@ body {
 body.dark,
 .dark .modal-header,
 .dark .page-footer,
-.dark .faq-item {
+.dark .faq-item,
+.dark .switch-theme-wrapper {
   background-color: #1e2023;
 }
 

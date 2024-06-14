@@ -60,7 +60,7 @@
 }
 
 .projects-list-link {
-    font-family: 'Poppins Medium', sans-serif;
+    font-family: 'Poppins Medium';
 
     display: flex;
     gap: 12px;
@@ -225,8 +225,8 @@
         padding: 82px 0;
     }
 
-    .container.desktop-proj-cont {
-        padding: 0 136px;
+    .projects-list {
+        padding: 0 104px;
     }
 
     .projects-title {

@@ -1,5 +1,5 @@
 .projects {
-        /* font-family: 'Poppins Light', sans-serif; */
+        font-family: 'Poppins Light';
     
     color:  #292929;
         font-size: 16px;
@@ -40,12 +40,12 @@
 }
 
 .projects-list-text {
-    font-family: 'Poppins Light', sans-serif;
+    font-family: 'Poppins Light';
     margin-bottom: 16px;
 }
 
 .projects-list-title {
-    font-family: 'Poppins Medium', sans-serif;
+    font-family: 'Poppins Medium';
         font-size: 32px;
         font-weight: 500;
         line-height: 1.25;
@@ -54,7 +54,7 @@
 }
 
 .projects-list-link {
-    font-family: 'Poppins Medium', sans-serif;
+    font-family: 'Poppins Medium';
 
     display: flex;
     gap: 12px;
@@ -82,7 +82,8 @@
     margin: 0 auto;
         
         cursor: pointer;
-        font-family: sans-serif;
+        font-family: "Poppins Regular";
+
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -218,8 +219,8 @@
         padding: 82px 0;
     }
 
-    .container.desktop-proj-cont {
-        padding: 0 136px;
+    .projects-list {
+        padding: 0 104px;
     }
 
     .projects-title {

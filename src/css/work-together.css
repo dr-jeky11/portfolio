@@ -176,9 +176,8 @@
     padding: 124px 0;
     background-image: url(../img/decor-bg/decor-bg-3.webp),
       url(../img/decor-bg/decor-bg-3.png);
-    /* width: 336px; */
     background-repeat: no-repeat;
-    background-position: top 20px right 20px, top 20px right 20px;
+    background-position: top 20px left 400px, top 20px left 400px;
     background-size: 332px;
   }
 
@@ -240,7 +239,7 @@
   .ltw-section {
     padding: 164px 0;
     background-size: 526px;
-    background-position: top 45px right 32px, top 45px right 32px;
+    background-position: top 45px left 722px, top 45px left 722px;
   }
 
   .lwt-title {

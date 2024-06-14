@@ -4,7 +4,8 @@ body {
 
 body.dark,
 .dark .modal-header,
-.dark .page-footer {
+.dark .page-footer,
+.dark .faq-item {
   background-color: #1e2023;
 }
 
@@ -28,8 +29,14 @@ body.dark,
 .dark .benefits-subtitle,
 .dark .benefits-text,
 .dark .faq-title,
+.dark .faq-item-title,
+.dark .faq-text,
+.dark .reviews-title,
+.dark .reviews-text,
+.dark .person-info,
 .dark .lwt-title,
 .dark .lwt-text,
+.dark .ltw-address-link,
 .dark .footer-name-text,
 .dark .footer-soc-link,
 .dark .footer-copyright-text {
@@ -37,10 +44,40 @@ body.dark,
 }
 
 .logo,
-.header-menu-link {
+.header-menu-link,
+.about-me-title,
+.about-me-bio-title,
+.about-me-bio-text,
+.about-me-education-title,
+.about-me-education-text,
+.about-me-role-title,
+.about-me-role-text,
+.marquee,
+.incl-marquee-li::marker,
+.projects-list-link,
+.projects-button,
+.projects-title,
+.projects-list-text,
+.projects-list-title,
+.benefits-title,
+.benefits-subtitle,
+.benefits-text,
+.faq-title,
+.faq-item-title,
+.faq-text,
+.reviews-title,
+.reviews-text,
+.person-info,
+.lwt-title,
+.lwt-text,
+.ltw-address-link,
+.footer-name-text,
+.footer-soc-link,
+.footer-copyright-text {
   transition: color 400ms ease;
 }
 
+.dark .header-menu-link:hover,
 .dark .logo-green,
 .dark .about-me-green,
 .dark .marquee-li::marker,
@@ -55,20 +92,13 @@ body.dark,
 }
 
 .dark .incl-marquee,
-.dark .projects-list-link {
+.dark .projects-list-link,
+.dark .reviews-item {
   background-color: #2a2d32;
 }
-.dark .ac.is-active {
+
+.dark .faq-item.active {
   background-color: #204136;
-}
-
-.hero-soc-list {
-  transition: background-color 300ms ease;
-}
-
-.dark .fac-container .accordion-container .ac .ac-trigger,
-.dark .fac-container .accordion-container .ac .ac-panel .ac-text {
-  color: #f0f0f0;
 }
 
 .dark .accordion-container .ac {
@@ -97,9 +127,7 @@ body.dark,
   background-color: #3b3f45;
 }
 
-.dark .education-item::before,
-.dark .role-item::before,
-.dark .skill-item::before {
+.dark .projects-button::after {
   background-color: #14c57c;
 }
 
@@ -114,17 +142,11 @@ body.dark,
   transition: color 300ms ease;
 }
 
-.dark .header-menu-link:hover {
-  color: #14c57c;
-}
-
-.dark .projects-button {
-  color: #f0f0f0;
-  transition: color 300ms ease;
-}
-
+.dark .icon-color,
 .dark .reviews-icon,
-.dark .modal-img {
+.dark .modal-img,
+.dark .faq-btn .faq-btn-open,
+.dark .faq-btn .faq-btn-close {
   stroke: #f0f0f0;
 }
 
@@ -142,20 +164,11 @@ body.dark,
   transition: background-color 300ms ease;
 }
 
-.dark .marquee {
-  color: #f0f0f0;
-  background-color: #214136;
+.dark .reviews-buttons-list button {
+  border: 1px solid #2a2d32;
 }
 
-.dark .marquee-li::marker {
-  color: #14c57c;
-}
-
-.dark .incl-marquee {
-  color: #14c57c;
-  background-color: #2a2d32;
-}
-
-.dark .incl-marquee-li::marker {
-  color: #f0f0f0;
+.dark .reviews-buttons-list button:hover {
+  border: 1px solid rgba(41, 41, 41, 0.3);
+  background-color: #3b3f45;
 }

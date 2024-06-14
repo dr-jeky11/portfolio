@@ -51,7 +51,8 @@
 }
 
 .footer-soc-link {
-  font-family: 'Poppins-Light', sans-serif;
+  font-family: 'Poppins';
+  font-weight: 300;
   text-decoration: none;
   color: #292929;
   font-size: 16px;
@@ -67,7 +68,8 @@
 }
 
 .footer-copyright-text {
-  font-family: 'Poppins-Light', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   color: #292929;
   text-align: center;
   font-size: 16px;

@@ -51,7 +51,8 @@
 
 .benefits-text {
   color: #292929;
-  font-family: 'Poppins light', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.031em;

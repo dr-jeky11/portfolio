@@ -190,6 +190,7 @@
     .projects-button {
         line-height: 1.6;
         font-size: 20px;
+        margin-top: 60px;
     }
 
     .projects-button::after {
@@ -245,6 +246,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .projects-button {
+        margin-top: 80px;
     }
 
 }

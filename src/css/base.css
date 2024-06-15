@@ -1,23 +1,32 @@
 @font-face {
   font-family: 'Impact';
-  src: url('./fonts/impact.ttf') format('ttf');
+  src: url('../fonts/impact.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins Regular';
-  src: url('./fonts/Poppins-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v21-latin-300.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Poppins Light';
-  src: url('./fonts/Poppins-Light.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Poppins Medium';
-  src: url('./fonts/Poppins-Medium.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v21-latin-500.woff2') format('woff2');
 }
 
 html {
@@ -64,7 +73,7 @@ address {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;

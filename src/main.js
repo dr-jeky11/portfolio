@@ -4,7 +4,7 @@ import initializeProjects from './js/my-projects.js';
 import initializeAccordion from './js/faq.js';
 import initializeForm from './js/work-together.js';
 import initializeScrollToTop from './js/scroll-to-top.js';
-import initializeActivateSocLinks from './js/footer'
+import initializeActivateSocLinks from './js/footer.js'
 
 initializeThemeSwitcher();
 initializeModal();

@@ -12,7 +12,7 @@ const initializeScrollToTop = () => {
 
   function onScroll() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      scrollToTopBtn.style.display = "block";
+      scrollToTopBtn.style.display = "flex";
     } else {
       scrollToTopBtn.style.display = "none";
     }

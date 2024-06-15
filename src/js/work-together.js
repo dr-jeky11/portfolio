@@ -45,14 +45,7 @@ const initializeForm = () => {
     event.preventDefault();
 
     if (!formData.email || !formData.comment) {
-      iziToast.show({
-        iconUrl: './img/error.svg',
-        message: 'Please fill out the form!',
-        backgroundColor: '#00b068',
-        messageColor: '#FFF',
-        messageSize: '16px',
-        position: 'topRight',
-      });
+      showToast('Please fill out the form!');
       return;
     }
 
@@ -66,14 +59,7 @@ const initializeForm = () => {
       backdrop.addEventListener('click', handleBackdrop);
       cleaningForm();
     } catch (error) {
-      iziToast.show({
-        iconUrl: './img/error.svg',
-        message: `${error.message}`,
-        backgroundColor: '#00b068',
-        messageColor: '#FFF',
-        messageSize: '16px',
-        position: 'topRight',
-      });
+      showToast(error.message);
     }
   }
 
@@ -103,6 +89,17 @@ const initializeForm = () => {
   function cleaningForm() {
     localStorage.removeItem(STORAGE_KEY);
     form.reset();
+  }
+
+  function showToast(message) {
+    iziToast.show({
+      iconUrl: '../img/error.svg',
+      message: message,
+      backgroundColor: '#00b068',
+      messageColor: '#FFF',
+      messageSize: '16px',
+      position: 'topRight',
+    });
   }
 };
 

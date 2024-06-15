@@ -98,7 +98,7 @@ body.dark,
 
 .dark .incl-marquee,
 .dark .projects-list-link,
-.dark .reviews-list .reviews-item,
+.dark .reviews .reviews-list .reviews-item,
 .dark .cap {
   background-color: #2a2d32;
 }

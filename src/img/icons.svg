@@ -53,5 +53,8 @@
 <symbol id="icon-arrow-left-upd" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 16h-21.333M13.333 24l-8-8 8-8"></path>
 </symbol>
+<symbol id="icon-Arrow-1" viewBox="0 0 45 24">
+<path d="M1.5 10.5c-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5v-3zM44.561 13.061c0.586-0.586 0.586-1.536 0-2.121l-9.546-9.546c-0.586-0.586-1.535-0.586-2.121 0s-0.586 1.536 0 2.121l8.485 8.485-8.485 8.485c-0.586 0.586-0.586 1.535 0 2.121s1.536 0.586 2.121 0l9.546-9.546zM1.5 13.5h42v-3h-42v3z"></path>
+</symbol>
 </defs>
 </svg>

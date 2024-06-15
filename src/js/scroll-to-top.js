@@ -1,18 +1,24 @@
-const scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+const initializeScrollToTop = () => {
+  const scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 
-scrollToTopBtn.addEventListener("click", scrToTop);
-
-function scrToTop() {
-     window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+  function scrToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
     });
-}
+  }
 
-window.onscroll = function() {
+  scrollToTopBtn.addEventListener("click", scrToTop);
+
+  function onScroll() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        scrollToTopBtn.style.display = "block";
+      scrollToTopBtn.style.display = "block";
     } else {
-        scrollToTopBtn.style.display = "none";
+      scrollToTopBtn.style.display = "none";
     }
+  }
+
+  window.onscroll = onScroll;
 };
+
+export default initializeScrollToTop;

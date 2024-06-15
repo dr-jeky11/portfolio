@@ -54,7 +54,6 @@
 .faq-text {
   overflow: hidden;
   max-height: 168px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
@@ -185,7 +184,7 @@
   }
 
   .faq-item-title {
-    max-width: 500px;
+    max-width: 488px;
     margin-bottom: 0;
   }
 

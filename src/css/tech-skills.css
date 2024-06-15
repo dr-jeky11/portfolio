@@ -7,6 +7,7 @@
 }
 
 .marquee {
+  position: sticky;
   width: 1392px;
   margin-right: -776px;
   margin-left: -256px;
@@ -32,7 +33,7 @@
   list-style-type: square;
   margin: 0;
   display: inline-flex;
-  padding: 32px 0px;
+  padding: 32px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
@@ -85,7 +86,7 @@
   transform: rotate(2deg);
   margin: 0;
   display: inline-flex;
-  padding: 32px 0px;
+  padding: 32px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
@@ -119,7 +120,7 @@
   }
   .marquee {
     position: sticky;
-    width: 1817px;
+    width: 100%;
     margin: 0;
     font-size: 36px;
     line-height: 1.33;

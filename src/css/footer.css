@@ -1,15 +1,14 @@
 .page-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 24px;
 }
 
 .footer-container {
-  display: flex;
   width: 100%;
-  flex-direction: column;
-  padding-top: 40px;
-  padding-bottom: 24px;
+}
+
+.footer-logo-link {
+  margin: 0 0 32px;
 }
 
 .footer-main-container {
@@ -27,7 +26,6 @@
   line-height: 1;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin: 0 0 32px;
 }
 
 .footer-name-text-span {

@@ -117,18 +117,6 @@
 
 .about-me-role-list {}
 
-.about-me-role-item {}
-
-.about-me-role-text {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.50;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
-}
-
 .about-me-role-item::before {
     content: '';
     position: absolute;
@@ -141,4 +129,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.about-me-role-text {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.50;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
 }

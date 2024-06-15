@@ -133,7 +133,7 @@
   }
 
   .incl-marquee {
-    width: 1817px;
+    width: 100%;
     margin: 0;
     font-size: 36px;
     line-height: 1.33;
@@ -145,5 +145,12 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 2560px) {
+  .marquee-line {
+    min-width: 70%;
+  }
+
+  .incl-marquee-line {
+    min-width: 70%;
+  }
 }

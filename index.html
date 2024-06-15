@@ -18,9 +18,9 @@
     />
     
     <script type="module" crossorigin src="/portfolio/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/portfolio/assets/vendor-595af889.js">
-    <link rel="stylesheet" href="/portfolio/assets/vendor-24f31f15.css">
-    <link rel="stylesheet" href="/portfolio/assets/index-0dbcb963.css">
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/vendor-cdb63856.js">
+    <link rel="stylesheet" href="/portfolio/assets/vendor-2d05bd8c.css">
+    <link rel="stylesheet" href="/portfolio/assets/index-529893de.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -460,15 +460,25 @@
 
     <div class="reviews-wrapper swiper">
         <ul class="swiper-wrapper">
-              <li class="reviews-item swiper-slide">1Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
-              <li class="reviews-item swiper-slide">2Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
-              <li class="reviews-item swiper-slide">3Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
+            <li class="reviews-item swiper-slide">
+
+            <p class="reviews-text">1 Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</p>
+
+            <ul class="person-info">
+                <li>
+                    <img src="${avatar_url}" alt="person photo" width="40" height="40">
+                </li>
+                <li> ${author} </li>
+            </ul>
+        </li>
+
+              <li class="reviews-item swiper-slide"><p class="reviews-text">1 Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</p></li>
 
         </ul>
 
 
         <nav class="reviews-buttons-list">
-            <button type="button" class="prev-btn btn" data-prev>
+            <button type="button" class="prev-btn btn disabled" data-prev>
                 <svg class="reviews-icon" width="24" height="24">
                     <use href="/portfolio/assets/icons-58591a5c.svg#icon-arrow-left"></use>
                 </svg>
@@ -483,7 +493,7 @@
     </div>
 
   </div>
-  
+
 </section>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

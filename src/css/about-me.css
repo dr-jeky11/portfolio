@@ -1,17 +1,17 @@
-/* .about-me {
-    max-width: 360px;
-} */
+.about-me {
+  padding-bottom: 40px;
+}
 
 .about-me-title {
-    color: #292929;
-    font-family: Impact;
-    font-size: 52px;
-    font-weight: 400;
-    line-height: 1.23;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    white-space: nowrap;
-    margin-bottom: 40px;
+  color: #292929;
+  font-family: Impact;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 40px;
 }
 
 .about-me-green {
@@ -38,14 +38,14 @@
 }
 
 .about-me-bio-title {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .about-me-bio-text {
@@ -67,31 +67,26 @@
 }
 
 .about-me-education-title {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-}
-
-.about-me-education-list {
-  list-style: none;
-  padding-left: 40px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .about-me-education-item::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 10px;
-    width: 4px;
-    height: 4px;
-    border-radius: 1px;
-    background: #00B068;
-    margin-left: 10px;
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 1px;
+  background: #00b068;
+  margin-left: 10px;
 }
 
 .about-me-education-item {
@@ -111,17 +106,13 @@
 }
 
 .about-me-education-text {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.50;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
-}
-
-.about-me-role {
-  margin-bottom: 40px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
 }
 
 .about-me-role-title {
@@ -152,25 +143,25 @@
 }
 
 .about-me-role-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 10px;
-    width: 4px;
-    height: 4px;
-    border-radius: 1px;
-    background: #00B068;
-    margin-left: 6px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 1px;
+  background: #00b068;
+  margin-left: 6px;
 }
 
 .about-me-role-text {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.50;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
+  color: #292929;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
 }
 
 @media (min-width: 768px) {
@@ -187,11 +178,15 @@
     height: 468px;
   }
 
-  .about-me-bio-title, .about-me-education-title, .about-me-role-title {
+  .about-me-bio-title,
+  .about-me-education-title,
+  .about-me-role-title {
     font-size: 36px;
   }
 
-  .about-me-bio-text, .about-me-education-text, .about-me-role-text {
+  .about-me-bio-text,
+  .about-me-education-text,
+  .about-me-role-text {
     font-size: 18px;
   }
 }
@@ -210,11 +205,15 @@
     height: 585px;
   }
 
-  .about-me-bio-title, .about-me-education-title, .about-me-role-title {
+  .about-me-bio-title,
+  .about-me-education-title,
+  .about-me-role-title {
     font-size: 40px;
   }
 
-  .about-me-bio-text, .about-me-education-text, .about-me-role-text {
+  .about-me-bio-text,
+  .about-me-education-text,
+  .about-me-role-text {
     font-size: 20px;
   }
 }

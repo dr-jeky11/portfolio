@@ -1,10 +1,14 @@
 import axios from 'axios';
 import Swiper from 'swiper';
+import 'swiper/css/navigation';
 import 'swiper/css';
+
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css"
 
-//----------------------------------
+const reviewsWrapper = document.querySelector('.reviews-wrapper');
+
+//------------------ API and Markup ----------------
 
 async function getReviews() {
     const BASE_URL = 'https://portfolio-js.b.goit.study/api/reviews';
@@ -20,7 +24,7 @@ async function getReviews() {
 
 function createMarkup({ _id, author, avatar_url, review }) {
     return `
-        <li class="reviwes-item swiper-pagination">
+        <li class="reviwes-item swiper-slide">
 
             <p class="reviews-text">${review}</p>
 
@@ -45,19 +49,36 @@ async function renderReviews() {
 }
 
 
-const swiper = document.querySelector('.swiper').swiper;
+//------------------ Swiper ----------------
 
-new Swiper('.swiper', {
-    pagination: {
-        el: '.swiper-pagination',
-    },
-    navigation: {
-        nextEl: '.next-btn',
-        prevEl: '.back-btn',
-    },
+const swiper = new Swiper(reviewsWrapper, {
+    slidesPerView: window.innerWidth < 1280 ? 1 : 2,
+    spaceBetween: 32,
+    
 });
 
 
+window.addEventListener('resize', updateSwiper);
+function updateSwiper() {
+    const screenWidth = window.innerWidth;
+    const slidesCount = screenWidth < 1280 ? 1 : 2;
+    swiper.params.slidesPerView = slidesCount;
+    swiper.update();
+}
+updateSwiper();
+
+reviewsWrapper.addEventListener('click', wrapperNavi);
+function wrapperNavi(e){
+    const target = e.target;
+
+    if(target.closest('[data-next]')) {
+      swiper.slideNext();
+    } else if(target.closest('[data-prev]')) {
+      swiper.slidePrev();
+    }
+  return console.log(swiper);;
+}
 
 
 
+// snapIndex показує на якому слайді відображається елемент

@@ -67,7 +67,7 @@ if (loadNumber > imgArr.length) {
     loadBtn.style.display = 'none';
 }
 const card = document.querySelector(".projects-list-item");
-        const cardHeight = (card.getBoundingClientRect().height) * 2;
+        const cardHeight = card.getBoundingClientRect().height;
         window.scrollBy({
             left: 0,
             top: cardHeight,

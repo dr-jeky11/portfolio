@@ -1,0 +1,197 @@
+body {
+  transition: background-color 300ms ease;
+}
+
+body.dark,
+.dark .modal-header,
+.dark .page-footer,
+.dark .faq-item,
+.dark .switch-theme-wrapper {
+  background-color: #1e2023;
+}
+
+.dark .logo,
+.dark .header-menu-link,
+.dark .about-me-title,
+.dark .about-me-bio-title,
+.dark .about-me-bio-text,
+.dark .about-me-education-title,
+.dark .about-me-education-text,
+.dark .about-me-role-title,
+.dark .about-me-role-text,
+.dark .marquee,
+.dark .incl-marquee-li::marker,
+.dark .projects-list-link,
+.dark .projects-button,
+.dark .projects-title,
+.dark .projects-list-text,
+.dark .projects-list-title,
+.dark .benefits-title,
+.dark .benefits-subtitle,
+.dark .benefits-text,
+.dark .faq-title,
+.dark .faq-item-title,
+.dark .faq-text,
+.dark .reviews-title,
+.dark .reviews-text,
+.dark .person-info,
+.dark .lwt-title,
+.dark .lwt-text,
+.dark .ltw-address-link,
+.dark .ltw-modal-message,
+.dark .footer-name-text,
+.dark .footer-soc-link,
+.dark .footer-copyright-text,
+.dark .cap {
+  color: #f0f0f0;
+}
+
+.logo,
+.header-menu-link,
+.about-me-title,
+.about-me-bio-title,
+.about-me-bio-text,
+.about-me-education-title,
+.about-me-education-text,
+.about-me-role-title,
+.about-me-role-text,
+.marquee,
+.incl-marquee-li::marker,
+.projects-list-link,
+.projects-button,
+.projects-title,
+.projects-list-text,
+.projects-list-title,
+.benefits-title,
+.benefits-subtitle,
+.benefits-text,
+.faq-title,
+.faq-item-title,
+.faq-text,
+.reviews-title,
+.reviews-text,
+.person-info,
+.lwt-title,
+.lwt-text,
+.ltw-address-link,
+.ltw-modal-message,
+.footer-name-text,
+.footer-soc-link,
+.footer-copyright-text {
+  transition: color 400ms ease;
+}
+
+.dark .header-menu-link:hover,
+.dark .logo-green,
+.dark .about-me-green,
+.dark .marquee-li::marker,
+.dark .incl-marquee,
+.dark .projects-button:hover,
+.dark .projects-list-icon,
+.dark .span,
+.dark .benefits-span,
+.dark .faq-span,
+.dark .lwt-title > span,
+.dark .ltw-modal-title {
+  color: #14c57c;
+}
+
+.dark .incl-marquee,
+.dark .projects-list-link,
+.dark .reviews-list .reviews-item,
+.dark .cap {
+  background-color: #2a2d32;
+}
+
+.dark .faq-item.active {
+  background-color: #204136;
+}
+
+.dark .accordion-container .ac {
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .marquee,
+.dark .scrollToTopBtn {
+  background-color: #214136;
+}
+
+.dark .skills-slider-container.skills-slider-container-bottom {
+  z-index: 1;
+}
+.dark .skills-slider-container-bottom,
+.dark .my-project-link {
+  background: #2a2d32;
+}
+
+.dark .my-project-link {
+  background: #2a2d32;
+  color: #f0f0f0;
+  transition: background-color 300ms ease;
+}
+
+.dark .projects-list-link:hover {
+  background-color: #3b3f45;
+}
+
+.dark .hero-decor-rectangle {
+  background-color: #204136;
+}
+
+.dark .header-menu-link {
+  transition: color 300ms ease;
+}
+
+.dark .icon-color,
+.dark .reviews-icon,
+.dark .modal-img,
+.dark .faq-btn .faq-btn-open,
+.dark .faq-btn .faq-btn-close,
+.dark .ltw-modal-close-icon,
+.dark .scroll-icon {
+  stroke: #f0f0f0;
+}
+
+.dark .ltw-address-icon {
+  stroke: #14c57c;
+}
+
+.dark .input-text,
+.dark .textarea-text,
+.dark .ltw-modal-container {
+  background-color: #2a2d32;
+}
+.dark .input-text::placeholder,
+.dark .textarea-text::placeholder {
+  color: rgba(240, 240, 240, 0.4);
+}
+
+.dark .form-button,
+.dark .ltw-form-btn,
+.dark .projects-button::after {
+  background-color: #14c57c;
+  transition: background-color 300ms ease;
+}
+
+.dark .ltw-form-btn:hover {
+  background-color: #009156;
+}
+
+.dark .reviews-buttons-list button {
+  border: 1px solid #2a2d32;
+}
+
+.dark .reviews-buttons-list button:hover {
+  border: 1px solid rgba(41, 41, 41, 0.3);
+  background-color: #3b3f45;
+}
+
+.dark .ltw-form-input,
+.dark .ltw-form-textarea {
+  color: rgba(240, 240, 240, 0.6);
+  background-color: #2a2d32;
+}
+
+.dark .ltw-modal-backdrop {
+  background-color: rgba(30, 32, 35, 0.8);
+}

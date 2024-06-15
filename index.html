@@ -18,9 +18,9 @@
     />
     
     <script type="module" crossorigin src="/portfolio/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/portfolio/assets/vendor-6f42c08a.js">
-    <link rel="stylesheet" href="/portfolio/assets/vendor-8255b786.css">
-    <link rel="stylesheet" href="/portfolio/assets/index-fafea9df.css">
+    <link rel="modulepreload" crossorigin href="/portfolio/assets/vendor-e6c22cea.js">
+    <link rel="stylesheet" href="/portfolio/assets/vendor-bbe62c9b.css">
+    <link rel="stylesheet" href="/portfolio/assets/index-79c2a7d4.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -458,44 +458,58 @@
   
 </section>
 
-      <section>
+      
+
+<section>
   <div class="container reviews">
+
     <h2 class="reviews-title">REVIEWS</h2>
 
-    <ul class="reviews-list swiper">
-      <li class="reviews-item swiper-pagination">
-        <p class="reviews-text">
-          Work with was extraordinary! He turned out to be a very competent and
-          responsible specialist. The projects were completed on time and the
-          result exceeded my expectations
-        </p>
+    <div class="reviews-wrapper swiper">
+        <ul class="swiper-wrapper">
+              <li class="reviews-item swiper-slide">1Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
+              <li class="reviews-item swiper-slide">2Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
+              <li class="reviews-item swiper-slide">3Work with was extraordinary! He turned out to be a very competent and responsible specialist. The projects were completed on time and the result exceeded my expectations</li>
 
-        <ul class="person-info">
-          <li>
-            <img src="${avatar_url}" alt="prsn" width="40" height="40" />
-          </li>
-
-          <li> <p> Natalia Shevchenko </p> </li>
         </ul>
-      </li>
 
-      <li class="reviews-buttons-list">
-        <button class="back-btn">
-          <svg class="reviews-icon" width="24" height="24">
-            <use href="/portfolio/assets/icons-58591a5c.svg#icon-arrow-left"></use>
-          </svg>
-        </button>
 
-        <button class="next-btn">
-          <svg class="reviews-icon" width="24" height="24">
-            <use href="/portfolio/assets/icons-58591a5c.svg#icon-arrow-right"></use>
-          </svg>
-        </button>
-      </li>
-    </ul>
+        <nav class="reviews-buttons-list">
+            <button type="button" class="prev-btn btn" data-prev>
+                <svg class="reviews-icon" width="24" height="24">
+                    <use href="/portfolio/assets/icons-58591a5c.svg#icon-arrow-left"></use>
+                </svg>
+            </button>
+
+            <button type="button" class="next-btn btn" data-next>
+                <svg class="reviews-icon" width="24" height="24">
+                   <use href="/portfolio/assets/icons-58591a5c.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+        </nav>
+    </div>
 
   </div>
+  
 </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script>
+    var swiper = new Swiper(".reviews-list", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".next-btn",
+        prevEl: ".back-btn",
+      },
+    });
+  </script>
+
+
 
       <section class="ltw-section" id="work-together">
   <div class="container ltw-container">

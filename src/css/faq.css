@@ -67,11 +67,8 @@
   border: 0;
   cursor: pointer;
   position: absolute;
-  top: 28px;
-  right: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 32px;
+  right: 28px;
   padding: 0;
 }
 
@@ -188,7 +185,7 @@
   }
 
   .faq-item-title {
-    max-width: 544px;
+    max-width: 500px;
     margin-bottom: 0;
   }
 

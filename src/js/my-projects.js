@@ -13,51 +13,52 @@ import imgNineL from '../img/my-projects/proj-9-x2.jpg';
 import imgTenS from '../img/my-projects/proj-10-x1.jpg';
 import imgTenL from '../img/my-projects/proj-10-x2.jpg';
 
-import svgIcon from '../img/icons.svg'
+import svgIcon from '../img/icons.svg';
 
-const imgArr = [
-{
-    url: imgFourS,
-    urlX2: imgFourL,
-    title: "power pulse webservice"
-},
-{
-    url: imgFiveS,
-    urlX2: imgFiveL,
-    title: "mimino website"
-},
-{
-    url: imgSixS,
-    urlX2: imgSixL,
-    title: "vyshyvanka vibes Landing Page"
-},
-{
-    url: imgSevenS,
-    urlX2: imgSevenL,
-    title: "chego jewelry website"
-},
-{
-    url: imgEigthS,
-    urlX2: imgEigthL,
-    title: "energy flow webservice"
-},
-{
-    url: imgNineS,
-    urlX2: imgNineL,
-    title: "fruitbox online store"
-},
-{
-    url: imgTenS,
-    urlX2: imgTenL,
-    title: "starlight studio landing page"
-},
-];
+const initializeProjects = () => {
+  const imgArr = [
+    {
+      url: imgFourS,
+      urlX2: imgFourL,
+      title: "power pulse webservice"
+    },
+    {
+      url: imgFiveS,
+      urlX2: imgFiveL,
+      title: "mimino website"
+    },
+    {
+      url: imgSixS,
+      urlX2: imgSixL,
+      title: "vyshyvanka vibes Landing Page"
+    },
+    {
+      url: imgSevenS,
+      urlX2: imgSevenL,
+      title: "chego jewelry website"
+    },
+    {
+      url: imgEigthS,
+      urlX2: imgEigthL,
+      title: "energy flow webservice"
+    },
+    {
+      url: imgNineS,
+      urlX2: imgNineL,
+      title: "fruitbox online store"
+    },
+    {
+      url: imgTenS,
+      urlX2: imgTenL,
+      title: "starlight studio landing page"
+    },
+  ];
 
-const list = document.querySelector(".projects-list");
-const loadBtn = document.querySelector(".projects-button");
-let loadNumber = 0;
+  const list = document.querySelector(".projects-list");
+  const loadBtn = document.querySelector(".projects-button");
+  let loadNumber = 0;
 
-loadBtn.addEventListener("click", hendleLoad);
+  loadBtn.addEventListener("click", handleLoad);
 
 
 function hendleLoad () {
@@ -74,7 +75,6 @@ const card = document.querySelector(".projects-list-item");
             behavior: "smooth"
         });
 }
-
 
 function renderProjectList (arr) {
 const renderArr = [];
@@ -104,5 +104,5 @@ loadNumber += 3;
 return renderArr.join("")
 }
 
-
+export default initializeProjects;
 

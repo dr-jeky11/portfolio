@@ -1,27 +1,26 @@
 .tech-skills {
+  width: 100%;
+  min-width: 320px;
   margin: 0 auto;
+  padding: 40px 0;
   overflow: hidden;
-  width: 1280px;
-  height: 282px;
-}
-
-.tech-skills-title {
-  display: none;
 }
 
 .marquee {
-  width: 1517px;
-  margin-right: -30px;
-  margin-left: -211px;
+  position: sticky;
+  width: 1392px;
+  margin-right: -776px;
+  margin-left: -256px;
   padding: 0;
   overflow: hidden;
   color: #292929;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 1.33; /* 133.333% */
-  letter-spacing: 0.01em;
+  line-height: 1.25;
+  letter-spacing: 0.015em;
   text-transform: uppercase;
   background-color: #bcdfd1;
+  z-index: 12;
 }
 
 .marquee-inner {
@@ -34,7 +33,7 @@
   list-style-type: square;
   margin: 0;
   display: inline-flex;
-  padding: 40px 8px;
+  padding: 32px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
@@ -62,17 +61,17 @@
 }
 
 .incl-marquee {
-  width: 1517px;
-  margin-right: -30px;
-  margin-left: -211px;
+  width: 1392px;
+  margin-right: -694px;
+  margin-left: -341px;
   padding: 0;
   overflow: hidden;
   transform: rotate(2deg);
   color: #00b068;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 1.33; /* 133.333% */
-  letter-spacing: 0.01em;
+  line-height: 1.25;
+  letter-spacing: 0.015em;
   text-transform: uppercase;
   background-color: #e4e5e6;
 }
@@ -87,7 +86,7 @@
   transform: rotate(2deg);
   margin: 0;
   display: inline-flex;
-  padding: 40px 8px;
+  padding: 32px 8px;
   align-items: center;
   gap: 16px;
   min-width: 50%;
@@ -112,5 +111,46 @@
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+@media (min-width: 768px) {
+  .tech-skills {
+    padding: 84px 0;
+  }
+  .marquee {
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.01em;
+    z-index: 12;
+  }
+
+  .marquee-line {
+    padding: 40px 8px;
+  }
+
+  .incl-marquee {
+    width: 100%;
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.01em;
+  }
+
+  .incl-marquee-line {
+    padding: 40px 8px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .marquee-line {
+    min-width: 70%;
+  }
+
+  .incl-marquee-line {
+    min-width: 70%;
   }
 }

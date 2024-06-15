@@ -6,18 +6,27 @@
 }
 
 @font-face {
-  font-family: 'Poppins Regular';
-  src: url('../fonts/Poppins-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v21-latin-300.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Poppins Light';
-  src: url('../fonts/Poppins-Light.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Poppins Medium';
-  src: url('../fonts/Poppins-Medium.ttf') format('ttf');
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v21-latin-500.woff2') format('woff2');
 }
 
 html {
@@ -64,11 +73,13 @@ address {
 }
 
 body {
-  font-family: 'Poppins Regular', sans-serif;
+  font-family: 'Poppins';
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.2px;
   background-color: #f0f0f0;
+  color: #292929;
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -88,7 +99,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Poppins Medium';
+  font-family: 'Poppins';
+  font-weight: 500;
   font-size: 32px;
   letter-spacing: 0.5px;
   line-height: 1.25;
@@ -126,8 +138,9 @@ h3 {
   }
 
   h3 {
-    font-family: 'Poppins Medium';
+    font-family: 'Poppins';
     font-size: 36px;
+    font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 1.33;
   }

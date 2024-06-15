@@ -52,6 +52,7 @@
 
 .footer-soc-link {
   font-family: 'Poppins Light', sans-serif;
+  display: inline-block;
   font-weight: 300;
   text-decoration: none;
   color: #292929;
@@ -60,6 +61,7 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.8s ease;
 }
 
 .footer-soc-link:hover,

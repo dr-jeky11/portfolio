@@ -1,134 +1,127 @@
 .about-me {
-    max-width: 360px;
+  max-width: 360px;
 }
 
 .about-me-title {
-    color: #292929;
-    font-family: Impact;
-    font-size: 52px;
-    font-weight: 360;
-    line-height: 1.23;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    white-space: nowrap;
-    display: inline-block;
+  color: #292929;
+  font-family: Impact;
+  font-size: 52px;
+  font-weight: 360;
+  line-height: 1.23;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .about-me-green {
-    color: #00B068;
+  color: #00b068;
 }
 
-.about-me-content {}
+.about-me-content {
+}
 
-.about-me-image {}
+.about-me-image {
+}
 
 .about-me-img {
-    max-width: 100%;
-    width: 320px;
-    height: 374px;
-    border-radius: 16px;
-    display: block;
-    margin-bottom: 40px;
+  max-width: 100%;
+  width: 320px;
+  height: 374px;
+  border-radius: 16px;
+  display: block;
+  margin-bottom: 40px;
 }
 
-<<<<<<< Updated upstream
-.about-me-bio {}
-=======
 .about-me-bio {
   margin-bottom: 40px;
 }
->>>>>>> Stashed changes
 
 .about-me-bio-title {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 360;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .about-me-bio-text {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.50;
-    letter-spacing: 0.05em;
-    margin-bottom: 24px;
-    align-self: stretch;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+  align-self: stretch;
 }
 
-.about-me-details {}
+.about-me-details {
+}
 
-<<<<<<< Updated upstream
-.about-me-education {}
-=======
 .about-me-education {
   margin-bottom: 40px;
 }
->>>>>>> Stashed changes
 
 .about-me-education-title {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 360;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .about-me-education-list {
-    list-style: none;
-    padding-left: 40px;
+  list-style: none;
+  padding-left: 40px;
 }
 
 .about-me-education-item::before {
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    border-radius: 1px;
-    background: #00B068;
-    left: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 1px;
+  background: #00b068;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.about-me-education-item {}
+.about-me-education-item {
+}
 
 .about-me-education-text {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.50;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
 }
 
-.about-me-role {}
+.about-me-role {
+}
 
 .about-me-role-title {
-    color: #292929;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 360;
-    line-height: 1.25;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
+  color: #292929;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: 360;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
-
-<<<<<<< Updated upstream
-.about-me-role-list {}
 
 .about-me-role-item::before {
     content: '';
@@ -153,7 +146,7 @@
     letter-spacing: 0.05em;
     margin-bottom: 12px;
 }
-=======
+
 .about-me-role-list {
   list-style: none;
   padding-left: 40px;
@@ -167,20 +160,6 @@
   line-height: 1.5;
   letter-spacing: 0.05em;
   margin-bottom: 12px;
-}
-
-.about-me-role-item::before {
-  content: '';
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 1px;
-  background: #00b068;
-  left: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
 
 @media (min-width: 768px) {

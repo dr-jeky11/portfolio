@@ -1,12 +1,14 @@
 import axios from 'axios';
+
 import Swiper from 'swiper';
-import 'swiper/css/navigation';
-import 'swiper/css';
+import { Navigation, Keyboard, Mousewheel } from 'swiper/modules';
 
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css"
 
 const reviewsWrapper = document.querySelector('.reviews-wrapper');
+const prevBtn = document.querySelector('[data-prev]');
+const nextBtn = document.querySelector('[data-next]');
 
 //------------------ API and Markup ----------------
 
@@ -22,9 +24,9 @@ async function getReviews() {
 }
 
 
-function createMarkup({ _id, author, avatar_url, review }) {
+function createMarkup({ author, avatar_url, review }) {
     return `
-        <li class="reviwes-item swiper-slide">
+        <li class="reviews-item swiper-slide">
 
             <p class="reviews-text">${review}</p>
 
@@ -51,34 +53,26 @@ async function renderReviews() {
 
 //------------------ Swiper ----------------
 
-const swiper = new Swiper(reviewsWrapper, {
-    slidesPerView: window.innerWidth < 1280 ? 1 : 2,
-    spaceBetween: 32,
-    
+new Swiper(reviewsWrapper, {
+  modules: [Navigation, Keyboard, Mousewheel],
+  navigation: {
+    nextEl: nextBtn,
+    prevEl: prevBtn,
+    disabledClass: 'disabled',
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+  mousewheel: true,
+  touchEventsTarget: 'container',
+  slidesPerView: 1,
+  spaceBetween: 32,
+  breakpoints: {
+    1280: {
+      slidesPerView: 2,
+    },
+    onlyInViewPort: true,
+    autoHeight: true,
+  },
 });
-
-
-window.addEventListener('resize', updateSwiper);
-function updateSwiper() {
-    const screenWidth = window.innerWidth;
-    const slidesCount = screenWidth < 1280 ? 1 : 2;
-    swiper.params.slidesPerView = slidesCount;
-    swiper.update();
-}
-updateSwiper();
-
-reviewsWrapper.addEventListener('click', wrapperNavi);
-function wrapperNavi(e){
-    const target = e.target;
-
-    if(target.closest('[data-next]')) {
-      swiper.slideNext();
-    } else if(target.closest('[data-prev]')) {
-      swiper.slidePrev();
-    }
-  return console.log(swiper);;
-}
-
-
-
-// snapIndex показує на якому слайді відображається елемент

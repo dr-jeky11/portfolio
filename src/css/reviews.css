@@ -1,3 +1,7 @@
+.reviews {
+  user-select: none;
+}
+
 .reviews-title {
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -12,7 +16,7 @@
     margin-top: 40px;
 }
 
-.swiper .reviews-item {
+.reviews-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -22,7 +26,6 @@
     background-color: #E4E5E6;
     height: 296px;
 }
-
 
 .reviews-text {
     letter-spacing: 0.03em;
@@ -69,7 +72,6 @@
   fill: transparent;
 }
 
-
 /* -------------------min-width: 768px------------------- */
 
 @media screen and (min-width: 768px) {
@@ -92,11 +94,6 @@
 
 @media screen and (min-width: 1280px) {
 
-    /* .swiper-wrapper {
-        gap: 32px;
-
-    } */
-
     .swiper .reviews-item {
         max-width: calc((100% - 32px) / 2);
         height: 224px;
@@ -107,4 +104,11 @@
         height: 48px;
     }
 
+}
+
+
+/* ------------------- other ------------------- */
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
 }

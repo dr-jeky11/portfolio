@@ -1,4 +1,5 @@
 import axios from 'axios';
+import iziToast from 'izitoast';
 
 const initializeForm = () => {
   const form = document.querySelector('.ltw-form');
@@ -44,7 +45,14 @@ const initializeForm = () => {
     event.preventDefault();
 
     if (!formData.email || !formData.comment) {
-      console.log('Заповніть форму');
+      iziToast.show({
+        iconUrl: './img/error.svg',
+        message: 'Please fill out the form!',
+        backgroundColor: '#00b068',
+        messageColor: '#FFF',
+        messageSize: '16px',
+        position: 'topRight',
+      });
       return;
     }
 
@@ -58,7 +66,14 @@ const initializeForm = () => {
       backdrop.addEventListener('click', handleBackdrop);
       cleaningForm();
     } catch (error) {
-      console.log(error.message);
+      iziToast.show({
+        iconUrl: './img/error.svg',
+        message: `${error.message}`,
+        backgroundColor: '#00b068',
+        messageColor: '#FFF',
+        messageSize: '16px',
+        position: 'topRight',
+      });
     }
   }
 
@@ -67,6 +82,8 @@ const initializeForm = () => {
     body.classList.remove('no-scroll');
     window.removeEventListener('keydown', handleEscape);
     backdrop.removeEventListener('click', handleBackdrop);
+    formData.email = '';
+    formData.comment = '';
   }
 
   function handleEscape(event) {

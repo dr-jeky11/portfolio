@@ -3,17 +3,58 @@
         <h2 class="about-me-title">ABOUT <span class="about-me-green">ME</span></h2>
         <div class="about-me-content">
             <div class="about-me-image">
-                <img class="about-me-img" 
+                <picture">
+                    <source 
                     srcset="
-                      ./img/about-me/about-mob.webp, 
-                      ./img/about-me/about-mob-2x.webp" 
-                    src="./img/about-me/about-mob.webp" 
-                    alt="Lloyd Jefferson"
-                    width="320" 
-                    height="374" />
+                    ./img/about-me/about-mob.webp, 
+                    ./img/about-me/about-mob-2x.webp 2x"
+                    media="(max-width:767px)"
+                    type="image/webp"/>
+
+                    <source 
+                    srcset="
+                    ./img/about-me/about-mob.png,
+                    ./img/about-me/about-mob-2x.png 2x"
+                    media="(max-width:767px)"
+                    type="image/png"/>
+
+                    <source 
+                    srcset="
+                    ./img/about-me/about-tab.webp,
+                    ./img/about-me/about-tab-2x.webp 2x"
+                    media="(min-width:768px) and (max-width:1279px)"
+                    type="image/webp"/>
+
+                    <source
+                    srcset="
+                    ./img/about-me/about-tab.png,
+                    ./img/about-me/about-tab-2x.png 2x"
+                    media="(min-width:768px) and (max-width:1279px)"
+                    type="image/png"/>
+
+                    <source
+                    srcset="
+                    ./img/about-me/about-desk.webp,
+                    ./img/about-me/about-desk-2x.webp 2x"
+                    media="(min-width:1280px)"
+                    type="image/webp"/>
+
+                    <source
+                    srcset="
+                    ./img/about-me/about-desk.png,
+                    ./img/about-me/about-desk-2x.png 2x"
+                    media="(min-width:1280px)"
+                    type="image/png"/>
+
+                    <img class="about-me-img"
+                    src="../img/about-me/about-desk.png"
+                    width="384"
+                    height="448"
+                    alt="My photo"/>
+                </picture>
             </div>
             <div class="about-me-bio">
-                <h2 class="about-me-bio-title">BIO</h2>
+                <h3 class="about-me-bio-title">BIO</h3>
                 <p class="about-me-bio-text">I'm Lloyd Jefferson, a talented programmer specializing in software
                     development.
                     My expertise spans various programming languages and technologies, and I am dedicated to continually
@@ -34,7 +75,7 @@
             </div>
             <div class="about-me-details">
                 <div class="about-me-education">
-                    <h2 class="about-me-education-title">EDUCATION</h2>
+                    <h3 class="about-me-education-title">EDUCATION</h3>
                     <ul class="about-me-education-list">
                         <li class="about-me-education-item">
                             <p class="about-me-education-text">2018 - 2019 / Frontend Development Diploma, GoIT IT School,
@@ -52,7 +93,7 @@
                     </ul>
                 </div>
                 <div class="about-me-role">
-                    <h2 class="about-me-role-title">ROLE</h2>
+                    <h3 class="about-me-role-title">ROLE</h3>
                     <ul class="about-me-role-list">
                         <li class="about-me-role-item">
                             <p class="about-me-role-text">Frontend development</p>

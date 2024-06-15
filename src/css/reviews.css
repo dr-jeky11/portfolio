@@ -1,7 +1,3 @@
-.reviews {
-  user-select: none;
-}
-
 .reviews-title {
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -16,20 +12,28 @@
     margin-top: 40px;
 }
 
-.reviews-item {
+.reviews-list .reviews-item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 24px;
     border-radius: 16px;
     padding: 32px;
     max-width: 320px;
-    background-color: #E4E5E6;
     height: 296px;
+    background-color: #E4E5E6;
 }
 
-.reviews-text {
-    letter-spacing: 0.03em;
+.reviews-item img {
+    border-radius: 50%;
 }
+
+.reviews-item .reviews-text {
+    letter-spacing: 0.03em;
+    overflow-y: scroll;
+    height: 100%;
+}
+
 
 .person-info {
     display: flex;
@@ -85,7 +89,6 @@
         height: 224px;
     }
 
-
 }
 
 
@@ -111,3 +114,15 @@
   pointer-events: none;
   opacity: 0.4;
 }
+
+.cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    /* padding: 32px; */
+    max-width: 320px;
+    background-color: #E4E5E6;
+}
+

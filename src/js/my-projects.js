@@ -13,6 +13,8 @@ import imgNineL from '../img/my-projects/proj-9-x2.jpg';
 import imgTenS from '../img/my-projects/proj-10-x1.jpg';
 import imgTenL from '../img/my-projects/proj-10-x2.jpg';
 
+import svgIcon from '../img/icons.svg'
+
 const imgArr = [
 {
     url: imgFourS,
@@ -92,7 +94,7 @@ renderArr.push(`<li class="projects-list-item">
 <a class="projects-list-link" href="#"
   >VISIT
   <svg class="projects-list-icon" width="24" height="24">
-    <use href="/img/icons.svg#icon-arrow-up"></use>
+    <use href="${svgIcon}#icon-arrow-up"></use>
   </svg>
 </a>
 </div>

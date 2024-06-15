@@ -1,3 +1,5 @@
+export default getReviews;
+
 import axios from 'axios';
 
 import Swiper from 'swiper';
@@ -32,7 +34,7 @@ function reviewsTamplate(arr) {
 
 
 //------ API ------
-export async function getReviews() {
+async function getReviews() {
   const BASE_URL = 'https://portfolio-js.b.goit.study/api/reviews';
   
   await axios(BASE_URL)
@@ -46,6 +48,8 @@ export async function getReviews() {
           iziToast.error({ ...iziToastParams, message: error.message });
         })
 }
+
+
 
 
 

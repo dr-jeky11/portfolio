@@ -109,7 +109,8 @@ body.dark,
   border-bottom-color: #3d3d3d;
 }
 
-.dark .marquee {
+.dark .marquee,
+.dark .scrollToTopBtn {
   background-color: #214136;
 }
 
@@ -144,7 +145,8 @@ body.dark,
 .dark .modal-img,
 .dark .faq-btn .faq-btn-open,
 .dark .faq-btn .faq-btn-close,
-.dark .ltw-modal-close-icon {
+.dark .ltw-modal-close-icon,
+.dark .scroll-icon {
   stroke: #f0f0f0;
 }
 

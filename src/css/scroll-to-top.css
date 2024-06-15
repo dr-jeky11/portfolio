@@ -14,11 +14,6 @@
   border-radius: 50%;
 }
 
-.dark .scrollToTopBtn {
-  background-color: #214136;
-  color: #f0f0f0;
-}
-
 .scroll-icon {
   stroke: #292929;
   fill: transparent;

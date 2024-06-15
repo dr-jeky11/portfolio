@@ -60,48 +60,49 @@ const initializeProjects = () => {
 
   loadBtn.addEventListener("click", handleLoad);
 
-  function handleLoad() {
-    list.insertAdjacentHTML("beforeend", renderProjectList(imgArr));
-    if (loadNumber >= imgArr.length) {
-      loadBtn.style.display = 'none';
-    }
-    const card = document.querySelector(".projects-list-item");
-    const cardHeight = (card.getBoundingClientRect().height) * 2;
-    window.scrollBy({
-      left: 0,
-      top: cardHeight,
-      behavior: "smooth"
-    });
-  }
 
-  function renderProjectList(arr) {
-    const renderArr = [];
-    for (let i = loadNumber; (i < loadNumber + 3) && (i < arr.length); i++) {
-      const { url, urlX2, title } = arr[i];
-      renderArr.push(`<li class="projects-list-item">
-        <img
-          class="projects-list-img"
-          srcset="${url} 1x, ${urlX2} 2x"
-          src="${url}"
-          alt="${title}"
-          width="320"
-        />
-        <p class="projects-list-text">React, JavaScript, Node JS, Git</p>
-        <div class="list-title-container">
-          <h3 class="projects-list-title">${title}</h3>
-          <a class="projects-list-link" href="#">
-            VISIT
-            <svg class="projects-list-icon" width="24" height="24">
-              <use href="${svgIcon}#icon-arrow-up"></use>
-            </svg>
-          </a>
-        </div>
-      </li>`);
-    }
-    loadNumber += 3;
-    return renderArr.join("");
-  }
-};
+function hendleLoad () {
+
+list.insertAdjacentHTML("beforeend", renderProjectList(imgArr));
+if (loadNumber > imgArr.length) {
+    loadBtn.style.display = 'none';
+}
+const card = document.querySelector(".projects-list-item");
+        const cardHeight = card.getBoundingClientRect().height;
+        window.scrollBy({
+            left: 0,
+            top: cardHeight,
+            behavior: "smooth"
+        });
+}
+
+function renderProjectList (arr) {
+const renderArr = [];
+for (let i = loadNumber;(i < loadNumber + 3) && (i < arr.length); i++) {
+const {url, urlX2, title} = arr[i];
+renderArr.push(`<li class="projects-list-item">
+<img
+  class="projects-list-img"
+  srcset="${url} 1x, ${urlX2} 2x"
+  src="${url}"
+  alt="${title}"
+  width="320"
+/>
+<p class="projects-list-text">React, JavaScript, Node JS, Git</p>
+<div class="list-title-container">
+<h3 class="projects-list-title">${title}</h3>
+<a class="projects-list-link" href="#"
+  >VISIT
+  <svg class="projects-list-icon" width="24" height="24">
+    <use href="${svgIcon}#icon-arrow-up"></use>
+  </svg>
+</a>
+</div>
+</li>`)
+}
+loadNumber += 3;
+return renderArr.join("")
+}
 
 export default initializeProjects;
 

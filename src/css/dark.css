@@ -41,7 +41,8 @@ body.dark,
 .dark .ltw-modal-message,
 .dark .footer-name-text,
 .dark .footer-soc-link,
-.dark .footer-copyright-text {
+.dark .footer-copyright-text,
+.dark .cap {
   color: #f0f0f0;
 }
 
@@ -97,7 +98,8 @@ body.dark,
 
 .dark .incl-marquee,
 .dark .projects-list-link,
-.dark .reviews-item {
+.dark .reviews-list .reviews-item,
+.dark .cap {
   background-color: #2a2d32;
 }
 

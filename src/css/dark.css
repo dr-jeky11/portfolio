@@ -42,7 +42,8 @@ body.dark,
 .dark .footer-name-text,
 .dark .footer-soc-link,
 .dark .footer-copyright-text,
-.dark .cap {
+.dark .cap,
+.dark .footer-logo-link {
   color: #f0f0f0;
 }
 
@@ -92,7 +93,8 @@ body.dark,
 .dark .benefits-span,
 .dark .faq-span,
 .dark .lwt-title > span,
-.dark .ltw-modal-title {
+.dark .ltw-modal-title,
+.dark .ltw-address-link:hover {
   color: #14c57c;
 }
 

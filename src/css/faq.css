@@ -53,7 +53,7 @@
 
 .faq-text {
   overflow: hidden;
-  max-height: 168px;
+  max-height: 270px;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
@@ -125,7 +125,7 @@
   }
 
   .faq-text {
-    max-height: 72px;
+    max-height: 110px;
   }
 }
 
@@ -191,6 +191,6 @@
   }
 
   .faq-text {
-    max-height: 96px;
+    max-height: 130px;
   }
 }

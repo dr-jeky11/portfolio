@@ -55,9 +55,9 @@
   color: #292929;
   font-family: 'Poppins';
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   margin-bottom: 24px;
   align-self: stretch;
 }
@@ -331,16 +331,4 @@
     font-size: 36px;
     line-height: 1.33;
   }
-}
-
-.about-me-bio-title,
-.about-me-education-title,
-.about-me-role-title {
-  font-size: 40px;
-}
-
-.about-me-bio-text,
-.about-me-education-text,
-.about-me-role-text {
-  font-size: 20px;
 }

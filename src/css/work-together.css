@@ -171,20 +171,32 @@
 
 /* ! ===== TABLET ===== */
 
+.ltw-section {
+  padding: 124px 0;
+}
+
+.ltw-container {
+  position: relative;
+}
+
 @media screen and (min-width: 768px) {
-  .ltw-section {
-    padding: 124px 0;
+  .ltw-background-img {
     background-image: url(../img/decor-bg/decor-bg-3.webp),
       url(../img/decor-bg/decor-bg-3.png);
+    position: absolute;
+    width: 333px;
+    height: 260px;
+    background-size: 333px 260px;
     background-repeat: no-repeat;
-    background-position: top 20px left 400px, top 20px left 400px;
-    background-size: 332px;
+    top: -104px;
+    left: 400px;
+    z-index: -1;
   }
 
   @media screen and (min-devise-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .ltw-section {
+    .ltw-background-img {
       background-image: url(../img/decor-bg/decor-bg-3-2x.webp),
         url(../img/decor-bg/decor-bg-3-2x.png);
     }
@@ -239,8 +251,25 @@
 @media screen and (min-width: 1280px) {
   .ltw-section {
     padding: 164px 0;
-    background-size: 526px;
-    background-position: top 45px left 722px, top 45px left 722px;
+  }
+
+  .ltw-background-img {
+    background-image: url(../img/decor-bg/decor-bg-4.webp),
+      url(../img/decor-bg/decor-bg-4.png);
+    width: 526px;
+    height: 407px;
+    background-size: 526px 407px;
+    top: -144px;
+    left: 722px;
+  }
+
+  @media screen and (min-devise-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .ltw-background-img {
+      background-image: url(../img/decor-bg/decor-bg-4-2x.webp),
+        url(../img/decor-bg/decor-bg-4-2x.png);
+    }
   }
 
   .lwt-title {

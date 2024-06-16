@@ -30,10 +30,15 @@
 
 .reviews-item .reviews-text {
     letter-spacing: 0.03em;
-    overflow-y: scroll;
     height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
+.reviews-item .reviews-text::-webkit-scrollbar {
+  display: none;
+}
 
 .person-info {
     display: flex;

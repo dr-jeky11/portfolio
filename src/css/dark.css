@@ -213,3 +213,13 @@ body.dark,
 .dark .ltw-modal-backdrop {
   background-color: rgba(30, 32, 35, 0.8);
 }
+
+.dark .reviews-item .reviews-text:hover {
+  /* для macOs */
+  scrollbar-color: #ffffff38 #00000000;
+}
+
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+  /* колір скролбару Windows */
+  background-color: rgba(255, 255, 255, 0.287);
+}

@@ -36,7 +36,7 @@
   padding: 32px 8px;
   align-items: center;
   gap: 16px;
-  min-width: 50%;
+  min-width: 30%;
   white-space: nowrap; /* Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /* Ховаємо текст, який виходить за межі контейнера */
   animation: marqueeLine 12s linear infinite; /* Застосовуємо анімацію */
@@ -89,7 +89,7 @@
   padding: 32px 8px;
   align-items: center;
   gap: 16px;
-  min-width: 50%;
+  min-width: 30%;
   white-space: nowrap; /*Забезпечуємо рух тексту в одному рядку */
   overflow: hidden; /*Ховаємо текст, який виходить за межі контейнера */
   animation: marqueeLine 19s linear infinite; /*Застосовуємо анімацію */
@@ -147,10 +147,10 @@
 
 @media screen and (min-width: 2560px) {
   .marquee-line {
-    min-width: 70%;
+    min-width: 30%;
   }
 
   .incl-marquee-line {
-    min-width: 70%;
+    min-width: 30%;
   }
 }

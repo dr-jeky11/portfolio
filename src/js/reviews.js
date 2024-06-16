@@ -4,7 +4,12 @@ import 'swiper/css';
 import { Navigation, Keyboard } from 'swiper/modules';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+<<<<<<< HEAD
 import rejected from '../img/error.svg';
+=======
+import errorImg from '../img/error.svg';
+
+>>>>>>> 8a96350b09dff6ccdc44857f8e82d907615421ed
 
 const reviewsList = document.querySelector('.reviews-list');
 
@@ -73,7 +78,11 @@ function initSwiper() {
 
 //------------------ error ----------------
 const iziToastParams = {
+<<<<<<< HEAD
   iconUrl: rejected,
+=======
+  iconUrl: errorImg,
+>>>>>>> 8a96350b09dff6ccdc44857f8e82d907615421ed
   backgroundColor: '#00b068',
   messageColor: '#FFF',
   messageSize: '16px',

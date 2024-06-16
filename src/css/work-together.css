@@ -49,6 +49,10 @@
   letter-spacing: 0.03em;
 }
 
+.ltw-address-link:hover {
+  color: #00b068;
+}
+
 .ltw-form {
   display: flex;
   flex-direction: column;

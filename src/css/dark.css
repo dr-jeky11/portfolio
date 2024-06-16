@@ -173,7 +173,8 @@ body.dark,
   transition: background-color 300ms ease;
 }
 
-.dark .ltw-form-btn:hover {
+.dark .ltw-form-btn:hover,
+.dark .scrollToTopBtn {
   background-color: #009156;
 }
 

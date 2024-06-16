@@ -333,15 +333,14 @@
   }
 }
 
-  .about-me-bio-title,
-  .about-me-education-title,
-  .about-me-role-title {
-    font-size: 40px;
-  }
+.about-me-bio-title,
+.about-me-education-title,
+.about-me-role-title {
+  font-size: 40px;
+}
 
-  .about-me-bio-text,
-  .about-me-education-text,
-  .about-me-role-text {
-    font-size: 20px;
-  }
+.about-me-bio-text,
+.about-me-education-text,
+.about-me-role-text {
+  font-size: 20px;
 }

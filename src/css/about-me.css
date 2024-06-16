@@ -1,6 +1,6 @@
-/* .about-me {
-    max-width: 360px;
-} */
+.about-me {
+  padding: 40px 0;
+}
 
 .about-me-title {
   color: #292929;
@@ -15,7 +15,13 @@
 }
 
 .about-me-green {
-  color: #00B068;
+  color: #00b068;
+}
+
+.about-me-content {
+}
+
+.about-me-image {
 }
 
 .about-me-img {
@@ -47,16 +53,17 @@
 
 .about-me-bio-text {
   color: #292929;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   margin-bottom: 24px;
   align-self: stretch;
 }
 
-.about-me-details {}
+.about-me-details {
+}
 
 .about-me-education {
   width: 320px;
@@ -89,7 +96,7 @@
   width: 4px;
   height: 4px;
   border-radius: 1px;
-  background: #00B068;
+  background: #00b068;
   margin-left: 10px;
 }
 
@@ -114,7 +121,7 @@
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   margin-bottom: 12px;
 }
@@ -124,11 +131,14 @@
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
 }
 
 .about-me-role-title {
   color: #292929;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 32px;
   font-weight: 500;
   line-height: 1.25;
@@ -155,7 +165,7 @@
 }
 
 .about-me-role-item:last-child {
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .about-me-role-item::before {
@@ -166,7 +176,7 @@
   width: 4px;
   height: 4px;
   border-radius: 1px;
-  background: #00B068;
+  background: #00b068;
   margin-left: 6px;
 }
 
@@ -175,7 +185,7 @@
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.05em;
   margin-bottom: 12px;
 }
@@ -195,8 +205,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
     .about-me {
       background-image: url(../img/about-me/decor-2x-tab.png);
     }
@@ -277,8 +287,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
     .about-me {
       background-image: url(../img/about-me/decor-2x-desk.png);
     }
@@ -320,5 +330,18 @@
   .about-me-role-title {
     font-size: 36px;
     line-height: 1.33;
+  }
+}
+
+  .about-me-bio-title,
+  .about-me-education-title,
+  .about-me-role-title {
+    font-size: 40px;
+  }
+
+  .about-me-bio-text,
+  .about-me-education-text,
+  .about-me-role-text {
+    font-size: 20px;
   }
 }

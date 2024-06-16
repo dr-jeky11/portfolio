@@ -1,0 +1,21 @@
+.scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #bcdfd1;
+  color: #292929;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.scroll-icon {
+  stroke: #292929;
+  fill: transparent;
+  transform: rotate(180deg);
+}

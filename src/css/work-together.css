@@ -68,9 +68,12 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+.ltw-form-input:focus {
+  color: #292929;
+}
 
 .ltw-form-textarea {
-  height: 96px;
+  height: 128px;
   padding: 16px;
   resize: none;
   border: transparent;
@@ -83,6 +86,16 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+
+.ltw-form-textarea:focus {
+  color: #292929;
+}
+
+.dark .ltw-form-input:focus,
+.dark .ltw-form-textarea:focus {
+  color: #f0f0f0;
+}
+
 .ltw-form-btn {
   padding: 12px 24px;
   background-color: #00b068;

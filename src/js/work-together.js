@@ -1,5 +1,7 @@
 import axios from 'axios';
 import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+import errorImg from '../img/error.svg';
 
 const initializeForm = () => {
   const form = document.querySelector('.ltw-form');
@@ -93,7 +95,7 @@ const initializeForm = () => {
 
   function showToast(message) {
     iziToast.show({
-      iconUrl: '/img/error.svg',
+      iconUrl: errorImg,
       message: message,
       backgroundColor: '#00b068',
       messageColor: '#FFF',

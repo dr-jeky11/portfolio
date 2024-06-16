@@ -100,6 +100,10 @@
     align-items: center;
   }
 
+  .footer-logo-link {
+    margin: 0;
+  }
+
   .footer-soc-list {
     height: 24px;
   }

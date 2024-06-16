@@ -1,3 +1,4 @@
+
 import axios from 'axios';
 import Swiper from 'swiper';
 import 'swiper/css';
@@ -18,7 +19,9 @@ function createMarkup({ author, avatar_url, review }) {
         <li>
           <img src="${avatar_url}" alt="person photo" width="40" height="40">
         </li>
-        <li>${author}</li>
+        <li>
+          <p class="person-name">${author}</p>
+        </li>
       </ul>
     </li>
   `;
@@ -71,6 +74,7 @@ function initSwiper() {
     touchEventsTarget: 'container',
   });
 }
+
 
 //------------------ error ----------------
 const iziToastParams = {

@@ -12,6 +12,10 @@ body.dark,
 
 .dark .logo,
 .dark .header-menu-link,
+.dark .hero-title,
+.dark .hero-link,
+.dark .hero-info,
+.dark .hero-soc-link,
 .dark .about-me-title,
 .dark .about-me-bio-title,
 .dark .about-me-bio-text,
@@ -49,6 +53,10 @@ body.dark,
 
 .logo,
 .header-menu-link,
+.hero-title,
+.hero-link,
+.hero-info,
+.hero-soc-link,
 .about-me-title,
 .about-me-bio-title,
 .about-me-bio-text,
@@ -84,6 +92,11 @@ body.dark,
 
 .dark .header-menu-link:hover,
 .dark .logo-green,
+.dark .hero-green,
+.dark .hero-info-greeen,
+.dark .hero-link:hover,
+.dark .hero-soc-link:hover,
+.hero-decor-rectangle:hover,
 .dark .about-me-green,
 .dark .marquee-li::marker,
 .dark .incl-marquee,
@@ -98,6 +111,7 @@ body.dark,
   color: #14c57c;
 }
 
+.dark .hero-soc-list,
 .dark .incl-marquee,
 .dark .projects-list-link,
 .dark .reviews .reviews-list .reviews-item,
@@ -105,7 +119,8 @@ body.dark,
   background-color: #2a2d32;
 }
 
-.dark .faq-item.active {
+.dark .faq-item.active,
+.dark .hero-decor-rectangle {
   background-color: #204136;
 }
 
@@ -197,4 +212,14 @@ body.dark,
 
 .dark .ltw-modal-backdrop {
   background-color: rgba(30, 32, 35, 0.8);
+}
+
+.dark .reviews-item .reviews-text:hover {
+  /* для macOs */
+  scrollbar-color: #ffffff38 #00000000;
+}
+
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+  /* колір скролбару Windows */
+  background-color: rgba(255, 255, 255, 0.287);
 }

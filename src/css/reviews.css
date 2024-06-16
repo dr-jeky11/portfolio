@@ -61,14 +61,14 @@
 
 .reviews-item .reviews-text::-webkit-scrollbar:hover {
   display: block;
+  border-radius: 20px;
 }
 
 .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
   background-color: rgba(4, 4, 4, 0.36);
   /* колір скролбару */
-  border-radius: 20px;
-  /* заокруглення скролбару */
 }
+
 
 .person-info {
     display: flex;

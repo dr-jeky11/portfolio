@@ -1,5 +1,6 @@
 import initializeThemeSwitcher from './js/theme-switcher.js';
 import initializeModal from './js/modal.js';
+import initializeBenefitsInfo from './js/benefits.js';
 import initializeProjects from './js/my-projects.js';
 import initializeAccordion from './js/faq.js';
 import initializeForm from './js/work-together.js';
@@ -10,6 +11,7 @@ import getReviews, { initSwiper } from './js/reviews.js';
 initializeThemeSwitcher();
 initializeModal();
 initializeProjects();
+initializeBenefitsInfo();
 initializeAccordion();
 initializeForm();
 initializeActivateSocLinks();

@@ -74,6 +74,8 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
   margin: 0;
+  width: 197px;
+  margin: 0 auto;
 }
 
 /* --- Tablet (min-width: 768px) ---- */
@@ -85,12 +87,9 @@
   }
   .footer-copyright-text {
     text-align: right;
-  }
-  br {
-    display: none;
+    width: 100%;
   }
 }
-
 /* --- Desktop (min-width: 1280px) --- */
 
 @media screen and (min-width: 1280px) {

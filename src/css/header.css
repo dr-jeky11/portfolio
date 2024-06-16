@@ -1,13 +1,14 @@
-/* Mobile-first styles */
 body.modal-open {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
 .header-container {
   width: 100%;
   min-width: 320px;
@@ -56,7 +57,7 @@ body.modal-open {
 
 .header-menu-link {
   color: #292929;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -77,7 +78,6 @@ body.modal-open {
   background: none;
   border: none;
   cursor: pointer;
-  margin-right: 45.5px;
 }
 
 .burger-icon {
@@ -127,95 +127,94 @@ body.modal-open {
 
 /* Desktop styles */
 @media (min-width: 768px) {
-    .header {
-        padding: 36px 0;
-    }
+  .header {
+    padding: 36px 0;
+  }
+  .header-container {
+    padding: 0 32px;
+  }
+  .nav-switcher {
+    display: flex;
+    gap: 20px;
+  }
 
-    .header-container {
-        padding: 0 32px;
-    }
+  .burger-icon,
+  .modal-header,
+  .close-modal {
+    display: none !important;
+  }
 
-    .nav-switcher {
-        display: flex;
-        gap: 20px;
-    }
+  .header-navigation {
+    display: block;
+  }
 
-    .burger-icon,
-    .modal-header,
-    .close-modal {
-        display: none !important;
-    }
+  .header-menu {
+    flex-direction: row;
+    gap: 40px;
+  }
 
-    .header-navigation {
-        display: block;
-    }
-
-    .header-menu {
-        flex-direction: row;
-        gap: 40px;
-    }
-
-    .logo {
-        font-size: 32px;
-        letter-spacing: 0.05em;
-    }
+  .logo {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .nav-switcher {
-        gap: 40px;
-    }
+  .nav-switcher {
+    gap: 40px;
+  }
 }
 
 .switch-theme-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 48px;
-    height: 24px;
-    background-color: #e4e5e6;
-    border-radius: 16px;
-    transition: background-color 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  position: relative;
+  overflow: hidden;
+  width: 48px;
+  height: 24px;
+  background-color: #e4e5e6;
+  border-radius: 16px;
+  transition: background-color 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  border: none;
 }
-
 .switch-theme-checkbox {
-    appearance: none;
+  appearance: none;
 }
-
 .theme-toggle {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
 .checkbox-circle {
-    position: absolute;
-    top: 50%;
-    left: 2px;
-    transform: translate(0, -50%);
-    width: 20px;
-    height: 20px;
-    transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-
-    background-image: url('./img/icons.svg#icon-ellipse');
-    background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translate(0, -50%);
+  width: 20px;
+  height: 20px;
+  transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  background-image: url('../img/header/Ellipse.svg');
+  background-repeat: no-repeat;
 }
 
-.switch-theme-checkbox:checked~.checkbox-circle {
-    transform: translate(30px, -50%);
-    background-image: url('./img/icons.svg#icon-dark');
+.switch-theme-checkbox:checked ~ .checkbox-circle {
+  transform: translate(30px, -50%);
+  background-image: url('../img/header/moon.svg');
+}
+
+.switch-theme-checkbox:checked ~ .theme-toggle {
+  background-color: #292929;
+  border: none;
 }
 
 .mobile-switcher {
-    display: block;
+  display: block;
 }
 
 .modal-content {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
-

@@ -44,7 +44,7 @@
   color: #292929;
   font-family: Poppins;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -76,7 +76,7 @@
   color: #292929;
   font-family: Poppins;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -140,7 +140,7 @@
   color: #292929;
   font-family: 'Poppins';
   font-size: 32px;
-  font-weight: 360;
+  font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -200,8 +200,8 @@
   .about-me {
     background-image: url(../img/about-me/decor-1x-tab.png);
     background-repeat: no-repeat;
-    background-position: left 393px top 850px;
-    background-size: 336px 252px;
+    background-position: left 410px top 1050px;
+    background-size: 380px 260px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -215,7 +215,7 @@
   .about-me-title {
     font-size: 108px;
     line-height: 1.15;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
   }
 
   .about-me-content {
@@ -231,6 +231,7 @@
   }
 
   .about-me-img {
+    padding-top: 408px;
     width: 336px;
     height: 392px;
   }
@@ -238,11 +239,11 @@
   .about-me-bio {
     grid-column: 2 / 3;
     display: flex;
+    width: 336px;
   }
 
   .about-me-bio-title {
     font-size: 36px;
-    font-weight: 500;
     line-height: 1.33;
   }
 
@@ -258,8 +259,16 @@
     width: 336px;
   }
 
+  .about-me-education-title {
+    font-size: 36px;
+  }
+
   .about-me-role {
     width: 336px;
+  }
+
+  .about-me-role-title {
+    width: 36px;
   }
 }
 
@@ -273,8 +282,8 @@
   .about-me {
     background-image: url(../img/about-me/decor-1x-desk.png);
     background-repeat: no-repeat;
-    background-position: left 812px top 1092px;
-    background-size: 384px 288px;
+    background-position: left 1100px top 1092px;
+    background-size: 380px 290px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -285,14 +294,44 @@
     }
   }
 
-  .about-me-title {
-    font-size: 72px;
+  .about-me-bio {
+    width: 488px;
+  }
+
+  .about-me-bio-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.33;
   }
 
   .about-me-img {
     width: 500px;
     height: 585px;
   }
+
+  .about-me-details {
+    width: 1004px;
+    gap: 336px;
+  }
+
+  .about-me-education {
+    width: 390px;
+  }
+
+  .about-me-education-title {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+
+  .about-me-role {
+    width: 390px;
+  }
+
+  .about-me-role-title {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
 
   .about-me-bio-title,
   .about-me-education-title,

@@ -23,7 +23,9 @@ import{i as y,A as j,a as w,S as E,N as k,K as q}from"./assets/vendor-21052bd2.j
         <li>
           <img src="${o}" alt="person photo" width="40" height="40">
         </li>
-        <li>${e}</li>
+        <li>
+          <p class="person-name">${e}</p>
+        </li>
       </ul>
     </li>
   `}function Q(e){return e.map(Y).join("")}async function Z(){const e="https://portfolio-js.b.goit.study/api/reviews";try{const o=await w(e),t=Q(o.data);h.innerHTML=t}catch(o){h.classList.add("cap"),h.innerHTML="<p>Not found</p>",y.error({...re,message:o.message})}}const ee=document.querySelector(".swiper"),te=document.querySelector("[data-prev]"),oe=document.querySelector("[data-next]");function se(){new E(ee,{modules:[k,q],navigation:{nextEl:oe,prevEl:te,disabledClass:"disabled"},keyboard:{enabled:!0,onlyInViewport:!0},slidesPerView:1,spaceBetween:32,breakpoints:{1280:{slidesPerView:2}},autoHeight:!0,touchEventsTarget:"container"})}const re={iconUrl:b,backgroundColor:"#00b068",messageColor:"#FFF",messageSize:"16px",position:"topRight"};T();I();U();z();V();_();W();G();document.addEventListener("DOMContentLoaded",async()=>{await Z(),se()});

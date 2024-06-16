@@ -93,7 +93,7 @@ const initializeForm = () => {
 
   function showToast(message) {
     iziToast.show({
-      iconUrl: '../img/error.svg',
+      iconUrl: '/img/error.svg',
       message: message,
       backgroundColor: '#00b068',
       messageColor: '#FFF',

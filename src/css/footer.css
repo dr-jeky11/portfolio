@@ -9,15 +9,6 @@
 
 .footer-logo-link {
   margin: 0 0 32px;
-}
-
-.footer-main-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 40px;
-}
-
-.footer-name-text {
   color: #292929;
   font-family: Impact;
   font-size: 32px;
@@ -26,6 +17,12 @@
   line-height: 1;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .footer-name-text-span {
@@ -49,7 +46,7 @@
 }
 
 .footer-soc-link {
-  font-family: 'Poppins Light', sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: inline-block;
   font-weight: 300;
   text-decoration: none;
@@ -68,7 +65,7 @@
 }
 
 .footer-copyright-text {
-  font-family: 'Poppins Light', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #292929;
   text-align: center;

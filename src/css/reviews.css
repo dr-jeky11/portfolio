@@ -22,6 +22,13 @@
     max-width: 320px;
     height: 296px;
     background-color: #E4E5E6;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.reviews .reviews-list .reviews-item:active {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
 }
 
 .reviews-item img {
@@ -31,7 +38,7 @@
 .reviews-item .reviews-text {
     letter-spacing: 0.03em;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -40,10 +47,38 @@
   display: none;
 }
 
+.reviews-item .reviews-text:hover {
+  /* для macOs */
+  scrollbar-width: thin;
+  scrollbar-color: #29292938 #00000000;
+  display: block;
+}
+
+.reviews-item .reviews-text::-webkit-scrollbar-track:hover {
+  /* прозора смуга прокрутки */
+  display: none;
+}
+
+.reviews-item .reviews-text::-webkit-scrollbar:hover {
+  display: block;
+}
+
+.reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(4, 4, 4, 0.36);
+  /* колір скролбару */
+  border-radius: 20px;
+  /* заокруглення скролбару */
+}
+
 .person-info {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.person-name {
+    font-weight: 600;
+    letter-spacing: 0.03em;
 }
 
 .reviews-buttons-list {
@@ -52,7 +87,6 @@
     gap: 16px;
     align-items: center;
     justify-content: flex-end;
-    padding-bottom: 80px;
 }
 
 .reviews-buttons-list .btn {

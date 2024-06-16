@@ -19,7 +19,7 @@ const initializeActivateSocLinks = () => {
   socLinks.forEach(link => {
     link.addEventListener('mouseover', () => {
       link.style.position = 'relative';
-      link.style.transform = 'scale(1.8) rotate(360deg)';
+      link.style.transform = 'scale(1.4) rotate(360deg)';
       link.style.zIndex = '1';
       link.style.textShadow = '0 4px 8px rgba(0, 0, 0, 0.6)';
     });

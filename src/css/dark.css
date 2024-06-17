@@ -246,3 +246,14 @@ body.dark,
   fill: #14c57c;
   stroke: transparent;
 }
+
+.dark .page-footer::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: Light grey;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

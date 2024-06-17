@@ -233,3 +233,16 @@ body.dark,
   /* колір скролбару Windows */
   background-color: rgba(255, 255, 255, 0.287);
 }
+
+.dark .ltw-form-input:not(:placeholder-shown):invalid {
+  color: #f05748;
+}
+
+.dark .text-invalid {
+  color: #f05748;
+}
+
+.dark .lwt-icon-valid {
+  fill: #14c57c;
+  stroke: transparent;
+}

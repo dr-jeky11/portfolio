@@ -206,7 +206,8 @@ body.dark,
   border: 1px solid #2a2d32;
 }
 
-.dark .reviews-buttons-list button:hover {
+.dark .reviews-buttons-list button:hover,
+.dark .reviews-buttons-list button:focus {
   border: 1px solid rgba(41, 41, 41, 0.3);
   background-color: #3b3f45;
 }
@@ -221,12 +222,14 @@ body.dark,
   background-color: rgba(30, 32, 35, 0.8);
 }
 
-.dark .reviews-item .reviews-text:hover {
+.dark .reviews-item .reviews-text:hover,
+.dark .reviews-item .reviews-text:focus {
   /* для macOs */
   scrollbar-color: #ffffff38 #00000000;
 }
 
-.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover,
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:focus {
   /* колір скролбару Windows */
   background-color: rgba(255, 255, 255, 0.287);
 }

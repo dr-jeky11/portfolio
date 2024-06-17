@@ -97,6 +97,7 @@ const initializeForm = () => {
     iziToast.show({
       iconUrl: errorImg,
       message: message,
+      theme: 'dark',
       backgroundColor: '#00b068',
       messageColor: '#FFF',
       messageSize: '16px',

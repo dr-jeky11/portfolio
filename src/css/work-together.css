@@ -79,16 +79,9 @@
   color: #292929;
 }
 
-/* !============= NEW ============ */
-
 .input-wrap {
   position: relative;
 }
-
-/* стилізація інпута при валідному значенні */
-/* .ltw-form-input:not(:placeholder-shown):valid {
-  border-color: green;
-} */
 
 .lwt-icon-valid {
   width: 16px;
@@ -125,23 +118,6 @@
 .ltw-form-input:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
-
-/* !============ DARK ==============*/
-
-.dark .ltw-form-input:not(:placeholder-shown):invalid {
-  color: #f05748;
-}
-
-.dark .text-invalid {
-  color: #f05748;
-}
-
-.dark .lwt-icon-valid {
-  fill: #14c57c;
-  stroke: transparent;
-}
-
-/* !============= END NEW ============ */
 
 .ltw-form-textarea {
   height: 128px;

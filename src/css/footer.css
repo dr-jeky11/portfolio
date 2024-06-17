@@ -47,6 +47,8 @@
 
 .footer-soc-link {
   font-family: 'Poppins', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: inline-block;
   font-weight: 300;
   text-decoration: none;
@@ -90,13 +92,13 @@
     width: 100%;
   }
 }
+
 /* --- Desktop (min-width: 1280px) --- */
 
 @media screen and (min-width: 1280px) {
   .footer-main-container {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
 
   .footer-logo-link {

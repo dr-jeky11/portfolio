@@ -90,7 +90,9 @@
   transition: background-color 300ms ease;
 }
 
-.hero-link:hover + .hero-decor-rectangle {
+.hero-link:hover + .hero-decor-rectangle,
+.hero-link:focus + .hero-decor-rectangle,
+.hero-decor-rectangle:focus {
   background-color: rgba(0, 176, 104, 0.6);
 }
 
@@ -142,7 +144,8 @@
   transition: color 300ms ease;
 }
 
-.hero-soc-link:hover {
+.hero-soc-link:hover,
+.hero-soc-link:focus {
   color: #00b068;
 }
 

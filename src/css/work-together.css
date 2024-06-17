@@ -49,7 +49,8 @@
   letter-spacing: 0.03em;
 }
 
-.ltw-address-link:hover {
+.ltw-address-link:hover,
+.ltw-address-link:focus {
   color: #00b068;
 }
 
@@ -117,7 +118,8 @@
   text-transform: uppercase;
 }
 
-.ltw-form-btn:hover {
+.ltw-form-btn:hover,
+.ltw-form-btn:focus {
   background-color: #009156;
 }
 

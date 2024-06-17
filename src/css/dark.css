@@ -92,23 +92,27 @@ body.dark,
 }
 
 .dark .header-menu-link:hover,
+.dark .header-menu-link:focus,
 .dark .logo-green,
 .dark .hero-green,
 .dark .hero-info-greeen,
 .dark .hero-link:hover,
 .dark .hero-soc-link:hover,
+.dark .hero-soc-link:focus,
 .hero-decor-rectangle:hover,
 .dark .about-me-green,
 .dark .marquee-li::marker,
 .dark .incl-marquee,
 .dark .projects-button:hover,
+.dark .projects-button:focus,
 .dark .projects-list-icon,
 .dark .span,
 .dark .benefits-span,
 .dark .faq-span,
 .dark .lwt-title > span,
 .dark .ltw-modal-title,
-.dark .ltw-address-link:hover {
+.dark .ltw-address-link:hover,
+.dark .ltw-address-link:focus {
   color: #14c57c;
 }
 
@@ -148,7 +152,8 @@ body.dark,
   transition: background-color 300ms ease;
 }
 
-.dark .projects-list-link:hover {
+.dark .projects-list-link:hover,
+.projects-list-link:focus {
   background-color: #3b3f45;
 }
 
@@ -192,6 +197,7 @@ body.dark,
 }
 
 .dark .ltw-form-btn:hover,
+.dark .ltw-form-btn:focus,
 .dark .scrollToTopBtn {
   background-color: #009156;
 }

@@ -25,7 +25,7 @@ const initializeActivateSocLinks = () => {
     });
 
     link.addEventListener('mouseout', () => {
-      link.style.transform = 'scale(1)';
+      link.style.transform = 'scale(1) rotate(0deg)';
       link.style.zIndex = '0';
       link.style.textShadow = 'none';
     });

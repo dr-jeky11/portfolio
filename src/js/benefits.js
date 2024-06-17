@@ -4,7 +4,7 @@ const initializeBenefitsInfo = () => {
   benefitsItems.forEach(item => {
     item.addEventListener('mouseover', () => {
       item.style.transform = 'scale(1.12) translate(10px, -10px)';
-      item.style.transition = 'color 250ms cubic-bezier(0.4, 0, 0.2, 1)';
+      item.style.transition = 'transform 0.4s ease';
       item.style.zIndex = '1';
     });
 

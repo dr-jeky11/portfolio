@@ -1,53 +1,54 @@
 .reviews-title {
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .reviews-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .reviews .reviews-list .reviews-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 24px;
-    border-radius: 16px;
-    padding: 32px;
-    max-width: 320px;
-    height: 296px;
-    background-color: #E4E5E6;
-    cursor: -webkit-grab;
-    cursor: grab;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 320px;
+  height: 296px;
+  background-color: #e4e5e6;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .reviews .reviews-list .reviews-item:active {
-    cursor: -webkit-grabbing;
-    cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 
 .reviews-item img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .reviews-item .reviews-text {
-    letter-spacing: 0.03em;
-    height: 100%;
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  letter-spacing: 0.03em;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .reviews-item .reviews-text::-webkit-scrollbar {
   display: none;
 }
 
-.reviews-item .reviews-text:hover {
+.reviews-item .reviews-text:hover,
+.reviews-item .reviews-text:focus {
   /* для macOs */
   scrollbar-width: thin;
   scrollbar-color: #29292938 #00000000;
@@ -64,46 +65,47 @@
   border-radius: 20px;
 }
 
-.reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+.reviews-item .reviews-text::-webkit-scrollbar-thumb:hover,
+.reviews-item .reviews-text::-webkit-scrollbar-thumb:focus {
   background-color: rgba(4, 4, 4, 0.36);
   /* колір скролбару */
 }
 
-
 .person-info {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .person-name {
-    font-weight: 600;
-    letter-spacing: 0.03em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .reviews-buttons-list {
-    width: 100%;
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .reviews-buttons-list .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    border: 1px solid rgba(41, 41, 41, 0.30);
-    background-color: transparent;
-    transition: all 250ms ease;
-    margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(41, 41, 41, 0.3);
+  background-color: transparent;
+  transition: all 250ms ease;
+  margin-top: 24px;
 }
 
-.reviews-buttons-list .btn:hover {
-    background-color: #E4E5E6;
+.reviews-buttons-list .btn:hover,
+.reviews-buttons-list .btn:focus {
+  background-color: #e4e5e6;
 }
 
 .reviews-buttons-list .btn:active {
@@ -118,34 +120,28 @@
 /* -------------------min-width: 768px------------------- */
 
 @media screen and (min-width: 768px) {
+  .reviews h2 {
+    letter-spacing: 0.02em;
+  }
 
-    .reviews h2 {
-        letter-spacing: 0.02em;
-      }
-
-    .reviews .swiper .reviews-item {
-        max-width: 704px;
-        height: 224px;
-    }
-
+  .reviews .swiper .reviews-item {
+    max-width: 704px;
+    height: 224px;
+  }
 }
-
 
 /* -------------------min-width: 1280px------------------- */
 
 @media screen and (min-width: 1280px) {
+  .swiper .reviews-item {
+    max-width: calc((100% - 32px) / 2);
+  }
 
-    .swiper .reviews-item {
-        max-width: calc((100% - 32px) / 2);
-    }
-
-    .reviews-buttons-list button {
-        width: 48px;
-        height: 48px;
-    }
-
+  .reviews-buttons-list button {
+    width: 48px;
+    height: 48px;
+  }
 }
-
 
 /* ------------------- other ------------------- */
 .disabled {
@@ -154,13 +150,12 @@
 }
 
 .cap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    border-radius: 16px;
-    /* padding: 32px; */
-    max-width: 320px;
-    background-color: #E4E5E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  /* padding: 32px; */
+  max-width: 320px;
+  background-color: #e4e5e6;
 }
-

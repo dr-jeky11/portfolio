@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-size: 320px 704px;
   background-position-y: 16px;
-  background-position-x: 20px;
+  background-position-x: 16px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -90,7 +90,9 @@
   transition: background-color 300ms ease;
 }
 
-.hero-link:hover + .hero-decor-rectangle {
+.hero-link:hover + .hero-decor-rectangle,
+.hero-link:focus + .hero-decor-rectangle,
+.hero-decor-rectangle:focus {
   background-color: rgba(0, 176, 104, 0.6);
 }
 
@@ -142,7 +144,8 @@
   transition: color 300ms ease;
 }
 
-.hero-soc-link:hover {
+.hero-soc-link:hover,
+.hero-soc-link:focus {
   color: #00b068;
 }
 
@@ -308,7 +311,7 @@
 
   .hero-info {
     padding-bottom: 0;
-    width: 592px;
+    width: 580px;
     letter-spacing: 0.027em;
   }
 }

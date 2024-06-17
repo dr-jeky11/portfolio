@@ -44,9 +44,9 @@
   color: #292929;
   font-family: Poppins;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -57,9 +57,8 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   margin-bottom: 24px;
-  align-self: stretch;
 }
 
 .about-me-details {
@@ -69,16 +68,15 @@
   width: 320px;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 40px;
 }
 
 .about-me-education-title {
   color: #292929;
   font-family: Poppins;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -122,7 +120,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
 
@@ -140,9 +138,9 @@
   color: #292929;
   font-family: 'Poppins';
   font-size: 32px;
-  font-weight: 360;
+  font-weight: 500;
   line-height: 1.25;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -186,21 +184,18 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
 
 /* Tablet */
 
 @media (min-width: 768px) {
-  .about-me-section {
-    padding-bottom: 124px;
-  }
 
   .about-me {
     background-image: url(../img/about-me/decor-1x-tab.png);
     background-repeat: no-repeat;
-    background-position: left 393px top 850px;
+    background-position: left 393px top 880px;
     background-size: 336px 252px;
   }
 
@@ -215,7 +210,7 @@
   .about-me-title {
     font-size: 108px;
     line-height: 1.15;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
   }
 
   .about-me-content {
@@ -231,6 +226,8 @@
   }
 
   .about-me-img {
+    display: block;
+    margin-top: 368px;
     width: 336px;
     height: 392px;
   }
@@ -238,11 +235,11 @@
   .about-me-bio {
     grid-column: 2 / 3;
     display: flex;
+    width: 336px;
   }
 
   .about-me-bio-title {
     font-size: 36px;
-    font-weight: 500;
     line-height: 1.33;
   }
 
@@ -258,23 +255,31 @@
     width: 336px;
   }
 
+  .about-me-education-title {
+    font-size: 36px;
+    letter-spacing: 0.01em;
+  }
+
   .about-me-role {
     width: 336px;
+  }
+
+  .about-me-role-title {
+    width: 36px;
+    letter-spacing: 0.01em;
   }
 }
 
 /* Desktop */
 
 @media (min-width: 1280px) {
-  .about-me-section {
-    padding-bottom: 164px;
-  }
 
   .about-me {
     background-image: url(../img/about-me/decor-1x-desk.png);
     background-repeat: no-repeat;
-    background-position: left 812px top 1092px;
-    background-size: 384px 288px;
+    background-position: left 830px top 700px;
+    background-size: 380px 290px;
+    padding-bottom: 82px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -285,24 +290,54 @@
     }
   }
 
-  .about-me-title {
-    font-size: 72px;
+  .about-me-content {
+    margin-left: 184px;
+  }
+
+  .about-me-bio {
+    width: 488px;
+  }
+
+  .about-me-bio-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.33;
+  }
+
+  .about-me-image {
+    width: 520px;
   }
 
   .about-me-img {
-    width: 500px;
-    height: 585px;
+    width: 384px;
+    height: 448px;
+    padding-left: 0;
+    margin-top: 272px;
   }
 
-  .about-me-bio-title,
-  .about-me-education-title,
+  .about-me-details {
+    width: 1004px;
+    gap: 150px;
+    margin-top: 20px;
+  }
+
+  .about-me-education {
+    width: 390px;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .about-me-education-title {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+
+  .about-me-role {
+    width: 390px;
+  }
+
   .about-me-role-title {
-    font-size: 40px;
-  }
-
-  .about-me-bio-text,
-  .about-me-education-text,
-  .about-me-role-text {
-    font-size: 20px;
+    font-size: 36px;
+    line-height: 1.33;
   }
 }

@@ -16,6 +16,7 @@ body.dark,
 .dark .hero-link,
 .dark .hero-info,
 .dark .hero-soc-link,
+.dark .hero-space-link,
 .dark .about-me-title,
 .dark .about-me-bio-title,
 .dark .about-me-bio-text,
@@ -91,23 +92,27 @@ body.dark,
 }
 
 .dark .header-menu-link:hover,
+.dark .header-menu-link:focus,
 .dark .logo-green,
 .dark .hero-green,
 .dark .hero-info-greeen,
 .dark .hero-link:hover,
 .dark .hero-soc-link:hover,
+.dark .hero-soc-link:focus,
 .hero-decor-rectangle:hover,
 .dark .about-me-green,
 .dark .marquee-li::marker,
 .dark .incl-marquee,
 .dark .projects-button:hover,
+.dark .projects-button:focus,
 .dark .projects-list-icon,
 .dark .span,
 .dark .benefits-span,
 .dark .faq-span,
 .dark .lwt-title > span,
 .dark .ltw-modal-title,
-.dark .ltw-address-link:hover {
+.dark .ltw-address-link:hover,
+.dark .ltw-address-link:focus {
   color: #14c57c;
 }
 
@@ -147,7 +152,8 @@ body.dark,
   transition: background-color 300ms ease;
 }
 
-.dark .projects-list-link:hover {
+.dark .projects-list-link:hover,
+.projects-list-link:focus {
   background-color: #3b3f45;
 }
 
@@ -191,6 +197,7 @@ body.dark,
 }
 
 .dark .ltw-form-btn:hover,
+.dark .ltw-form-btn:focus,
 .dark .scrollToTopBtn {
   background-color: #009156;
 }
@@ -199,7 +206,8 @@ body.dark,
   border: 1px solid #2a2d32;
 }
 
-.dark .reviews-buttons-list button:hover {
+.dark .reviews-buttons-list button:hover,
+.dark .reviews-buttons-list button:focus {
   border: 1px solid rgba(41, 41, 41, 0.3);
   background-color: #3b3f45;
 }
@@ -214,12 +222,27 @@ body.dark,
   background-color: rgba(30, 32, 35, 0.8);
 }
 
-.dark .reviews-item .reviews-text:hover {
+.dark .reviews-item .reviews-text:hover,
+.dark .reviews-item .reviews-text:focus {
   /* для macOs */
   scrollbar-color: #ffffff38 #00000000;
 }
 
-.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover {
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:hover,
+.dark .reviews-item .reviews-text::-webkit-scrollbar-thumb:focus {
   /* колір скролбару Windows */
   background-color: rgba(255, 255, 255, 0.287);
+}
+
+.dark .ltw-form-input:not(:placeholder-shown):invalid {
+  color: #f05748;
+}
+
+.dark .text-invalid {
+  color: #f05748;
+}
+
+.dark .lwt-icon-valid {
+  fill: #14c57c;
+  stroke: transparent;
 }

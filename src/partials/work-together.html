@@ -42,15 +42,23 @@
         </address>
       </div>
       <form class="ltw-form">
-        <input
-          class="ltw-form-input"
-          type="email"
-          name="email"
-          id="user-email"
-          placeholder="Your email*"
-          autocomplete="email"
-          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
-        />
+        <div class="input-wrap">
+          <input
+            class="ltw-form-input"
+            type="email"
+            name="email"
+            id="user-email"
+            placeholder="Your email*"
+            autocomplete="email"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          />
+          <svg class="lwt-icon-valid" width="16" height="16">
+            <use href="./img/icons.svg#icon-valid"></use>
+          </svg>
+
+          <p class="text-invalid">Invalid email, try again</p>
+        </div>
+
         <textarea
           class="ltw-form-textarea"
           name="comment"
@@ -67,11 +75,7 @@
 
   <div class="ltw-modal-backdrop visually-hidden">
     <div class="ltw-modal-container">
-      <button
-        type="button"
-        class="ltw-modal-close-btn"
-        aria-label="Lets work-together close button"
-      >
+      <button type="button" class="ltw-modal-close-btn">
         <svg class="ltw-modal-close-icon" width="24" height="24">
           <use href="./img/icons.svg#icon-menu-close"></use>
         </svg>

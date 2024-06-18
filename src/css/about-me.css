@@ -192,21 +192,6 @@
 
 @media (min-width: 768px) {
 
-  .about-me {
-    background-image: url(../img/about-me/decor-1x-tab.png);
-    background-repeat: no-repeat;
-    background-position: left 393px top 880px;
-    background-size: 336px 252px;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .about-me {
-      background-image: url(../img/about-me/decor-2x-tab.png);
-    }
-  }
-
   .about-me-title {
     font-size: 108px;
     line-height: 1.15;
@@ -219,6 +204,18 @@
     grid-template-rows: auto;
     gap: 20px;
     align-items: start;
+    background-image: url(../img/about-me/decor-1x-tab.png);
+    background-repeat: no-repeat;
+    background-position: left 362px top 680px;
+    background-size: 336px 252px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .about-me-content {
+      background-image: url(../img/about-me/decor-2x-tab.png);
+     }
   }
 
   .about-me-image {
@@ -275,23 +272,23 @@
 @media (min-width: 1280px) {
 
   .about-me {
-    background-image: url(../img/about-me/decor-1x-desk.png);
-    background-repeat: no-repeat;
-    background-position: left 830px top 700px;
-    background-size: 380px 290px;
     padding-bottom: 82px;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .about-me {
-      background-image: url(../img/about-me/decor-2x-desk.png);
-    }
   }
 
   .about-me-content {
     margin-left: 184px;
+    background-image: url(../img/about-me/decor-1x-desk.png);
+    background-repeat: no-repeat;
+    background-position: left 638px top 523px;
+    background-size: 380px 290px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .about-me-content {
+      background-image: url(../img/about-me/decor-2x-desk.png);
+    }
   }
 
   .about-me-bio {

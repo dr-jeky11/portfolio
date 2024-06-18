@@ -143,7 +143,7 @@
   .faq::before {
     content: '';
     position: absolute;
-    width: 530px;
+    width: 532px;
     height: 418px;
     background-image: url(../img/decor-bg/decor-bg-3.webp),
       url(../img/decor-bg/decor-bg-3.png);

@@ -143,13 +143,13 @@
   .faq::before {
     content: '';
     position: absolute;
-    width: 526px;
-    height: 408px;
+    width: 530px;
+    height: 418px;
     background-image: url(../img/decor-bg/decor-bg-3.webp),
       url(../img/decor-bg/decor-bg-3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 164px;
+    bottom: 162px;
     left: 32px;
     transform: scaleX(-1);
     z-index: -1;

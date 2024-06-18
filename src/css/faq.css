@@ -28,6 +28,7 @@
   border-bottom: 1px solid #cccccc;
   position: relative;
   transition: background-color 250ms ease, border-radius 250ms ease;
+  cursor: pointer;
 }
 
 .faq-item.active {
